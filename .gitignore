@@ -1,0 +1,9 @@
+# local caches and outputs (renders come back as workflow artifacts)
+**/.hyperframes/
+**/renders/
+**/node_modules/
+*.log
+.DS_Store
+Thumbs.db
+**/.thumbnails/
+**/.waveform-cache/

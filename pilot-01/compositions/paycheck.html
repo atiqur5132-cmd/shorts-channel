@@ -1,0 +1,161 @@
+<template>
+  <style>
+    /*@css*/
+    /* ---- shorts master template: shared look (injected by tools/inject_common.py) ---- */
+    #root { position: absolute; inset: 0; overflow: hidden; background: #0b0b0b; }
+    .shot { position: absolute; inset: 0; overflow: hidden; }
+    .rig { position: absolute; inset: 0; }
+    .ph { position: absolute; inset: 0; overflow: hidden; }
+    .ph-move { position: absolute; left: -81px; top: -144px; width: 1242px; height: 2208px; }
+    .ph-move img, .fill img, .card img { width: 100%; height: 100%; object-fit: cover; display: block; }
+    .fill { position: absolute; inset: 0; }
+    .card {
+      position: absolute; overflow: hidden; background: #111;
+      border: 6px solid #f4f1ea; border-radius: 26px;
+      box-shadow: 0 34px 60px rgba(0, 0, 0, 0.55);
+    }
+    .scrim-top {
+      position: absolute; left: 0; right: 0; top: 0; height: 1000px;
+      background: linear-gradient(rgba(0, 0, 0, 0.66), rgba(0, 0, 0, 0.35) 55%, rgba(0, 0, 0, 0));
+    }
+    .scrim-cap {
+      position: absolute; left: 0; right: 0; top: 980px; height: 560px;
+      background: radial-gradient(ellipse 70% 50% at 50% 45%, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0));
+    }
+    .vig {
+      position: absolute; inset: 0; pointer-events: none;
+      background: radial-gradient(ellipse 85% 70% at 50% 45%, rgba(0, 0, 0, 0) 55%, rgba(0, 0, 0, 0.6) 100%);
+    }
+    .hl {
+      position: absolute; left: 70px; right: 70px;
+      font-family: "League Gothic", sans-serif; line-height: 0.9; color: #ffffff;
+      text-transform: uppercase; text-shadow: 0 6px 0 rgba(0, 0, 0, 0.85);
+    }
+    .kick {
+      position: absolute; left: 70px; right: 70px;
+      font-family: "Montserrat", sans-serif; font-weight: 900; font-size: 58px; line-height: 1.05;
+      color: #ffffff; text-transform: uppercase; text-shadow: 0 4px 0 rgba(0, 0, 0, 0.85);
+    }
+    .num { color: #ffc940; }
+    .g { color: #35e07a; }
+    .y { color: #ffc940; }
+    .r { color: #ff3b30; }
+    .stamp {
+      position: absolute; padding: 16px 34px 12px; white-space: nowrap;
+      border: 9px solid currentColor; border-radius: 14px; background: rgba(10, 10, 10, 0.84);
+      font-family: "Archivo Black", sans-serif; font-size: 74px; line-height: 1; text-transform: uppercase;
+    }
+    .paper {
+      position: absolute; background: #f4f1ea; color: #141414; border-radius: 6px;
+      font-family: "IBM Plex Mono", monospace; font-weight: 500;
+      box-shadow: 0 30px 60px rgba(0, 0, 0, 0.5);
+    }
+    .word { display: inline-block; }
+    /* ---- end shared look ---- */
+    /*@css-end*/
+    #pay-kick { top: 222px; font-size: 64px; }
+    #pay-card { left: 110px; top: 320px; width: 860px; height: 573px; }
+    #pay-stub { left: 150px; top: 640px; width: 780px; padding: 30px 40px 36px; font-size: 33px; line-height: 1.5; }
+    #pay-stub .p-title { font-weight: 700; font-size: 40px; letter-spacing: 0.06em; border-bottom: 3px solid #141414; padding-bottom: 8px; margin-bottom: 10px; }
+    #pay-stub .row { display: flex; justify-content: space-between; }
+    #pay-stub .minus b { color: #d0261c; }
+    #pay-stub .net { border-top: 2px dashed #141414; margin-top: 8px; padding-top: 6px; font-weight: 700; }
+    #pay-stamp { left: 300px; top: 470px; color: #ff3b30; font-size: 70px; }
+  </style>
+  <div data-hf-id="hf-zmdx" id="root" data-composition-id="paycheck" data-width="1080" data-height="1920">
+    <div data-hf-id="hf-ciav" id="pay-rig" class="rig">
+      <div data-hf-id="hf-1m7z" id="pay-shot" class="shot clip" data-start="0" data-duration="4.24">
+        <div data-hf-id="hf-4qej" class="fill"><img data-hf-id="hf-sgky" id="pay-fill" src="assets/img/office-worker-fill.jpg" alt=""></div>
+        <div data-hf-id="hf-0bcg" class="scrim-top"></div>
+        <div data-hf-id="hf-4mzn" id="pay-kick" class="kick">Meanwhile, <span data-hf-id="hf-r4vl" class="y">you:</span></div>
+        <div data-hf-id="hf-xtax" id="pay-card" class="card"><img data-color-grading="{&quot;preset&quot;:&quot;deep-contrast&quot;,&quot;intensity&quot;:0.5,&quot;adjust&quot;:{&quot;exposure&quot;:-0.03,&quot;contrast&quot;:0.2,&quot;highlights&quot;:-0.08,&quot;shadows&quot;:-0.08,&quot;whites&quot;:0,&quot;blacks&quot;:-0.12,&quot;temperature&quot;:0,&quot;tint&quot;:0,&quot;vibrance&quot;:0,&quot;saturation&quot;:0.06},&quot;details&quot;:{&quot;vignette&quot;:0,&quot;vignetteMidpoint&quot;:0.5,&quot;vignetteRoundness&quot;:0,&quot;vignetteFeather&quot;:0.65,&quot;grain&quot;:0,&quot;grainSize&quot;:0.25,&quot;grainRoughness&quot;:0.5},&quot;effects&quot;:{&quot;blur&quot;:0,&quot;pixelate&quot;:0,&quot;chromaBleed&quot;:0,&quot;tapeDamage&quot;:0,&quot;tapeTracking&quot;:0,&quot;tapeNoise&quot;:1,&quot;tapeSpeed&quot;:0.5,&quot;filmArtifacts&quot;:0,&quot;halftone&quot;:0,&quot;halftoneSize&quot;:0,&quot;twoInkPrint&quot;:0,&quot;twoInkPrintSize&quot;:0,&quot;ascii&quot;:0,&quot;asciiSize&quot;:0.06578947368421052,&quot;asciiInvert&quot;:0,&quot;asciiStyle&quot;:0,&quot;asciiColor&quot;:1,&quot;asciiRotation&quot;:0,&quot;dither&quot;:0,&quot;ditherSize&quot;:0,&quot;bloom&quot;:0,&quot;bloomRadius&quot;:8,&quot;monoScreen&quot;:0,&quot;monoScreenSize&quot;:0,&quot;monoScreenAngle&quot;:0,&quot;monoScreenSpread&quot;:0,&quot;monoScreenShape&quot;:0,&quot;monoScreenInvert&quot;:0,&quot;scanlines&quot;:0,&quot;scanlineCount&quot;:0,&quot;scanlineSoftness&quot;:0,&quot;chromaticAberration&quot;:0,&quot;chromaticAngle&quot;:0,&quot;crtCurvature&quot;:0,&quot;digitalGlitch&quot;:0,&quot;digitalGlitchColorSplit&quot;:0,&quot;digitalGlitchLineTear&quot;:0,&quot;digitalGlitchPixelate&quot;:0,&quot;digitalGlitchBlockAmount&quot;:0,&quot;digitalGlitchBlockDisplacement&quot;:0,&quot;digitalGlitchBlockOpacity&quot;:0,&quot;digitalGlitchSpeed&quot;:0,&quot;engraving&quot;:0,&quot;engravingSpacing&quot;:0.4117647058823529,&quot;engravingMinThickness&quot;:0.2,&quot;engravingMaxThickness&quot;:0.4571428571428572,&quot;engravingAngle&quot;:0.25,&quot;engravingContrast&quot;:0.4666666666666667,&quot;engravingSharpness&quot;:0.59,&quot;engravingWave&quot;:0.2,&quot;engravingWaveFrequency&quot;:0.2222222222222222,&quot;crosshatch&quot;:0,&quot;crosshatchSpacing&quot;:0.28,&quot;crosshatchThickness&quot;:0.25,&quot;crosshatchAngle&quot;:0.25,&quot;crosshatchContrast&quot;:0.3333333333333333,&quot;crosshatchEdges&quot;:0.5,&quot;crosshatchLineWeight&quot;:0,&quot;crosshatchWave&quot;:0.33,&quot;crosshatchWaveFrequency&quot;:0.2222222222222222,&quot;kuwahara&quot;:0,&quot;kuwaharaRadius&quot;:0.14285714285714285,&quot;kuwaharaSharpness&quot;:0.3125,&quot;kuwaharaSaturation&quot;:0.5},&quot;lut&quot;:null,&quot;colorSpace&quot;:&quot;rec709&quot;}" data-hf-id="hf-ueda" id="pay-card-img" src="assets/img/office-worker.jpg" alt="A man working at a desk"></div>
+        <div data-hf-id="hf-fx2v" id="pay-stub" class="paper">
+          <div data-hf-id="hf-zzs2" class="p-title">PAYSTUB · EXAMPLE</div>
+          <div data-hf-id="hf-thy4" class="row"><span data-hf-id="hf-avfx">Gross pay</span><b data-hf-id="hf-dezy">$5,000</b></div>
+          <div data-hf-id="hf-qtuc" class="row minus"><span data-hf-id="hf-rmzn">Federal tax</span><b data-hf-id="hf-xseu">−$540</b></div>
+          <div data-hf-id="hf-fp2k" class="row minus"><span data-hf-id="hf-twk4">Social Security</span><b data-hf-id="hf-6ct5">−$310</b></div>
+          <div data-hf-id="hf-ei5h" class="row minus"><span data-hf-id="hf-j3fh">Medicare</span><b data-hf-id="hf-zlp9">−$73</b></div>
+          <div data-hf-id="hf-iowd" class="row net"><span data-hf-id="hf-yzf6">Net pay</span><b data-hf-id="hf-w9kf">$4,077</b></div>
+        </div>
+        <div data-hf-id="hf-c7bu" id="pay-stamp" class="stamp">Taken first</div>
+      </div>
+    </div>
+  </div>
+  <script>
+    //@js
+    // ---- shorts master template: shared motion (injected by tools/inject_common.py) ----
+    // Every helper adds tweens to `tl` at an absolute scene time; all are seek-safe.
+    const M = {
+      // ground: one slow camera push across a shot (continuous motion on the photo, never on titles)
+      push(tl, sel, t, dur, from = 1.0, to = 1.07, x = 0, y = 0) {
+        tl.fromTo(sel, { scale: from, x: 0, y: 0 }, { scale: to, x, y, duration: dur, ease: "power1.inOut" }, t);
+      },
+      // hard-cut arrival: the shot lands slightly large and settles
+      settle(tl, sel, t, from = 1.14) {
+        tl.fromTo(sel, { scale: from }, { scale: 1, duration: 0.5, ease: "expo.out", immediateRender: false }, t);
+      },
+      // title slam: big -> landed, then dead still
+      slam(tl, sel, t, from = 1.7) {
+        tl.fromTo(sel, { scale: from, opacity: 0 }, { scale: 1, opacity: 1, duration: 0.2, ease: "power4.out" }, t);
+      },
+      // per-word blur-in, 0.067 s apart, no translate
+      words(tl, sel, t, gap = 0.067) {
+        tl.fromTo(sel, { opacity: 0, filter: "blur(10px)" },
+          { opacity: 1, filter: "blur(0px)", duration: 0.14, ease: "power2.out", stagger: gap }, t);
+      },
+      // rubber stamp: drops from above the paper, lands with a small overshoot
+      stamp(tl, sel, t, rot = -6) {
+        tl.fromTo(sel, { scale: 2.3, rotation: rot - 12, opacity: 0 },
+          { scale: 1, rotation: rot, opacity: 1, duration: 0.16, ease: "power4.in" }, t);
+      },
+      // a 6-frame frame shake on a wrapper, seek-safe (baseline set once by the caller)
+      shake(tl, sel, t, amp = 16) {
+        tl.to(sel, {
+          keyframes: [
+            { x: -amp, y: amp * 0.5, duration: 0.033 }, { x: amp * 0.8, y: -amp * 0.6, duration: 0.033 },
+            { x: -amp * 0.5, y: amp * 0.4, duration: 0.033 }, { x: amp * 0.3, y: -amp * 0.2, duration: 0.033 },
+            { x: 0, y: 0, duration: 0.06 },
+          ], ease: "none",
+        }, t);
+      },
+      // card toss-in: from below with rotation, settles on a long tail
+      cardIn(tl, sel, t, rotFrom = 9, rotTo = -2, fromY = 300) {
+        tl.fromTo(sel, { y: fromY, rotation: rotFrom, opacity: 0 },
+          { y: 0, rotation: rotTo, opacity: 1, duration: 0.55, ease: "expo.out" }, t);
+      },
+      // exit: one smooth accelerating move
+      exitDown(tl, sel, t, dur = 0.3) {
+        tl.to(sel, { y: 380, opacity: 0, duration: dur, ease: "power3.in" }, t);
+      },
+      // number counter written into an element's text
+      count(tl, el, t, dur, from, to, fmt) {
+        const o = { v: from };
+        tl.fromTo(o, { v: from }, {
+          v: to, duration: dur, ease: "power3.out",
+          onUpdate: () => { document.querySelector(el).textContent = fmt(o.v); },
+        }, t);
+      },
+      // strike line drawing across (scaleX from the left)
+      strike(tl, sel, t) {
+        tl.fromTo(sel, { scaleX: 0 }, { scaleX: 1, duration: 0.22, ease: "power4.out" }, t);
+      },
+    };
+    // ---- end shared motion ----
+    //@js-end
+    const tl = gsap.timeline({ paused: true });
+    tl.set("#pay-rig", { x: 0, y: 0 }, 0);
+    // whip in from the left after the rate shot
+    tl.fromTo("#pay-rig", { x: -1150 }, { x: 0, duration: 0.3, ease: "expo.out", immediateRender: false }, 0);
+    tl.fromTo("#pay-fill", { scale: 1.1 }, { scale: 1.0, duration: 4.24, ease: "power1.out" }, 0);
+    M.words(tl, "#pay-kick", 0.1, 0.12);
+    M.cardIn(tl, "#pay-card", 0.05, -6, 2, 240);
+    tl.fromTo("#pay-card-img", { scale: 1 }, { scale: 1.1, duration: 4.0, ease: "power1.inOut" }, 0.2);
+    M.cardIn(tl, "#pay-stub", 0.7, 7, -2, 460);
+    tl.fromTo("#pay-stub .row:not(.minus)", { opacity: 0 }, { opacity: 1, duration: 0.12 }, 0.95);
+    // the deductions print one by one as "your tax is taken"
+    tl.fromTo("#pay-stub .minus", { opacity: 0, x: -30 }, { opacity: 1, x: 0, duration: 0.14, ease: "power3.out", stagger: 0.16 }, 1.6);
+    M.stamp(tl, "#pay-stamp", 2.36, -8);
+    M.shake(tl, "#pay-rig", 2.52, 12);
+    window.__timelines["paycheck"] = tl;
+  </script>
+</template>

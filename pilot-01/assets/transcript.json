@@ -1,0 +1,758 @@
+[
+  {
+    "id": "w0",
+    "text": "Billionaires",
+    "start": 0,
+    "end": 0.56
+  },
+  {
+    "id": "w1",
+    "text": "don't",
+    "start": 0.72,
+    "end": 0.88
+  },
+  {
+    "id": "w2",
+    "text": "pay",
+    "start": 0.88,
+    "end": 1.12
+  },
+  {
+    "id": "w3",
+    "text": "tax",
+    "start": 1.12,
+    "end": 1.44
+  },
+  {
+    "id": "w4",
+    "text": "like",
+    "start": 1.52,
+    "end": 1.68
+  },
+  {
+    "id": "w5",
+    "text": "you",
+    "start": 1.68,
+    "end": 1.84
+  },
+  {
+    "id": "w6",
+    "text": "do,",
+    "start": 1.84,
+    "end": 2.16
+  },
+  {
+    "id": "w7",
+    "text": "and",
+    "start": 2.16,
+    "end": 2.4
+  },
+  {
+    "id": "w8",
+    "text": "it's",
+    "start": 2.4,
+    "end": 2.64
+  },
+  {
+    "id": "w9",
+    "text": "completely",
+    "start": 2.64,
+    "end": 3.04
+  },
+  {
+    "id": "w10",
+    "text": "legal.",
+    "start": 3.04,
+    "end": 3.6
+  },
+  {
+    "id": "w11",
+    "text": "It's",
+    "start": 3.6,
+    "end": 3.84
+  },
+  {
+    "id": "w12",
+    "text": "called",
+    "start": 3.84,
+    "end": 4.16
+  },
+  {
+    "id": "w13",
+    "text": "buy,",
+    "start": 4.16,
+    "end": 4.64
+  },
+  {
+    "id": "w14",
+    "text": "borrow,",
+    "start": 4.64,
+    "end": 4.96
+  },
+  {
+    "id": "w15",
+    "text": "die.",
+    "start": 5.04,
+    "end": 5.44
+  },
+  {
+    "id": "w16",
+    "text": "Step",
+    "start": 5.44,
+    "end": 5.68
+  },
+  {
+    "id": "w17",
+    "text": "one,",
+    "start": 5.68,
+    "end": 6
+  },
+  {
+    "id": "w18",
+    "text": "buy",
+    "start": 6,
+    "end": 6.24
+  },
+  {
+    "id": "w19",
+    "text": "they",
+    "start": 6.32,
+    "end": 6.4
+  },
+  {
+    "id": "w20",
+    "text": "buy",
+    "start": 6.48,
+    "end": 6.72
+  },
+  {
+    "id": "w21",
+    "text": "assets",
+    "start": 6.72,
+    "end": 7.12
+  },
+  {
+    "id": "w22",
+    "text": "like",
+    "start": 7.2,
+    "end": 7.36
+  },
+  {
+    "id": "w23",
+    "text": "stocks",
+    "start": 7.36,
+    "end": 7.76
+  },
+  {
+    "id": "w24",
+    "text": "that",
+    "start": 7.76,
+    "end": 7.92
+  },
+  {
+    "id": "w25",
+    "text": "grow",
+    "start": 7.92,
+    "end": 8.16
+  },
+  {
+    "id": "w26",
+    "text": "in",
+    "start": 8.16,
+    "end": 8.32
+  },
+  {
+    "id": "w27",
+    "text": "value.",
+    "start": 8.32,
+    "end": 8.8
+  },
+  {
+    "id": "w28",
+    "text": "No",
+    "start": 8.8,
+    "end": 9.04
+  },
+  {
+    "id": "w29",
+    "text": "sale",
+    "start": 9.04,
+    "end": 9.44
+  },
+  {
+    "id": "w30",
+    "text": "means",
+    "start": 9.44,
+    "end": 9.76
+  },
+  {
+    "id": "w31",
+    "text": "no",
+    "start": 9.76,
+    "end": 9.92
+  },
+  {
+    "id": "w32",
+    "text": "tax.",
+    "start": 9.92,
+    "end": 10.32
+  },
+  {
+    "id": "w33",
+    "text": "Step",
+    "start": 10.32,
+    "end": 10.64
+  },
+  {
+    "id": "w34",
+    "text": "two,",
+    "start": 10.64,
+    "end": 11.12
+  },
+  {
+    "id": "w35",
+    "text": "borrow.",
+    "start": 11.12,
+    "end": 11.6
+  },
+  {
+    "id": "w36",
+    "text": "Instead",
+    "start": 11.6,
+    "end": 11.92
+  },
+  {
+    "id": "w37",
+    "text": "of",
+    "start": 11.92,
+    "end": 12
+  },
+  {
+    "id": "w38",
+    "text": "selling,",
+    "start": 12,
+    "end": 12.4
+  },
+  {
+    "id": "w39",
+    "text": "they",
+    "start": 12.4,
+    "end": 12.56
+  },
+  {
+    "id": "w40",
+    "text": "borrow",
+    "start": 12.56,
+    "end": 12.88
+  },
+  {
+    "id": "w41",
+    "text": "against",
+    "start": 12.88,
+    "end": 13.2
+  },
+  {
+    "id": "w42",
+    "text": "those",
+    "start": 13.2,
+    "end": 13.44
+  },
+  {
+    "id": "w43",
+    "text": "stocks.",
+    "start": 13.44,
+    "end": 14.08
+  },
+  {
+    "id": "w44",
+    "text": "A",
+    "start": 14.08,
+    "end": 14.24
+  },
+  {
+    "id": "w45",
+    "text": "loan",
+    "start": 14.24,
+    "end": 14.56
+  },
+  {
+    "id": "w46",
+    "text": "is",
+    "start": 14.56,
+    "end": 14.72
+  },
+  {
+    "id": "w47",
+    "text": "an",
+    "start": 14.72,
+    "end": 14.88
+  },
+  {
+    "id": "w48",
+    "text": "income,",
+    "start": 14.88,
+    "end": 15.28
+  },
+  {
+    "id": "w49",
+    "text": "so",
+    "start": 15.28,
+    "end": 15.52
+  },
+  {
+    "id": "w50",
+    "text": "there's",
+    "start": 15.52,
+    "end": 15.76
+  },
+  {
+    "id": "w51",
+    "text": "no",
+    "start": 15.76,
+    "end": 15.92
+  },
+  {
+    "id": "w52",
+    "text": "income",
+    "start": 15.92,
+    "end": 16.4
+  },
+  {
+    "id": "w53",
+    "text": "tax.",
+    "start": 16.4,
+    "end": 16.96
+  },
+  {
+    "id": "w54",
+    "text": "They",
+    "start": 16.96,
+    "end": 17.2
+  },
+  {
+    "id": "w55",
+    "text": "live",
+    "start": 17.2,
+    "end": 17.44
+  },
+  {
+    "id": "w56",
+    "text": "on",
+    "start": 17.44,
+    "end": 17.52
+  },
+  {
+    "id": "w57",
+    "text": "the",
+    "start": 17.52,
+    "end": 17.68
+  },
+  {
+    "id": "w58",
+    "text": "loan",
+    "start": 17.68,
+    "end": 18
+  },
+  {
+    "id": "w59",
+    "text": "while",
+    "start": 18.08,
+    "end": 18.32
+  },
+  {
+    "id": "w60",
+    "text": "their",
+    "start": 18.32,
+    "end": 18.48
+  },
+  {
+    "id": "w61",
+    "text": "stocks",
+    "start": 18.48,
+    "end": 18.88
+  },
+  {
+    "id": "w62",
+    "text": "grow",
+    "start": 18.88,
+    "end": 19.2
+  },
+  {
+    "id": "w63",
+    "text": "faster",
+    "start": 19.2,
+    "end": 19.52
+  },
+  {
+    "id": "w64",
+    "text": "than",
+    "start": 19.52,
+    "end": 19.68
+  },
+  {
+    "id": "w65",
+    "text": "the",
+    "start": 19.68,
+    "end": 19.84
+  },
+  {
+    "id": "w66",
+    "text": "interest.",
+    "start": 19.84,
+    "end": 20.48
+  },
+  {
+    "id": "w67",
+    "text": "Step",
+    "start": 20.48,
+    "end": 20.88
+  },
+  {
+    "id": "w68",
+    "text": "three.",
+    "start": 20.88,
+    "end": 21.6
+  },
+  {
+    "id": "w69",
+    "text": "Die.",
+    "start": 21.6,
+    "end": 22.24
+  },
+  {
+    "id": "w70",
+    "text": "In",
+    "start": 22.24,
+    "end": 22.48
+  },
+  {
+    "id": "w71",
+    "text": "America,",
+    "start": 22.48,
+    "end": 22.96
+  },
+  {
+    "id": "w72",
+    "text": "when",
+    "start": 22.96,
+    "end": 23.12
+  },
+  {
+    "id": "w73",
+    "text": "they",
+    "start": 23.12,
+    "end": 23.28
+  },
+  {
+    "id": "w74",
+    "text": "pass",
+    "start": 23.28,
+    "end": 23.52
+  },
+  {
+    "id": "w75",
+    "text": "away,",
+    "start": 23.52,
+    "end": 23.84
+  },
+  {
+    "id": "w76",
+    "text": "their",
+    "start": 23.84,
+    "end": 24.08
+  },
+  {
+    "id": "w77",
+    "text": "heirs",
+    "start": 24.08,
+    "end": 24.48
+  },
+  {
+    "id": "w78",
+    "text": "inherit",
+    "start": 24.48,
+    "end": 24.96
+  },
+  {
+    "id": "w79",
+    "text": "the",
+    "start": 24.96,
+    "end": 25.04
+  },
+  {
+    "id": "w80",
+    "text": "stocks",
+    "start": 25.04,
+    "end": 25.44
+  },
+  {
+    "id": "w81",
+    "text": "at",
+    "start": 25.44,
+    "end": 25.6
+  },
+  {
+    "id": "w82",
+    "text": "today's",
+    "start": 25.6,
+    "end": 26
+  },
+  {
+    "id": "w83",
+    "text": "value.",
+    "start": 26,
+    "end": 26.56
+  },
+  {
+    "id": "w84",
+    "text": "All",
+    "start": 26.56,
+    "end": 26.8
+  },
+  {
+    "id": "w85",
+    "text": "that",
+    "start": 26.8,
+    "end": 27.04
+  },
+  {
+    "id": "w86",
+    "text": "growth,",
+    "start": 27.04,
+    "end": 27.76
+  },
+  {
+    "id": "w87",
+    "text": "never",
+    "start": 27.76,
+    "end": 28.16
+  },
+  {
+    "id": "w88",
+    "text": "taxed,",
+    "start": 28.16,
+    "end": 28.88
+  },
+  {
+    "id": "w89",
+    "text": "ProPublica",
+    "start": 28.88,
+    "end": 29.68
+  },
+  {
+    "id": "w90",
+    "text": "found",
+    "start": 29.84,
+    "end": 30.16
+  },
+  {
+    "id": "w91",
+    "text": "the",
+    "start": 30.16,
+    "end": 30.32
+  },
+  {
+    "id": "w92",
+    "text": "25",
+    "start": 30.32,
+    "end": 30.72
+  },
+  {
+    "id": "w93",
+    "text": "richest",
+    "start": 30.88,
+    "end": 31.44
+  },
+  {
+    "id": "w94",
+    "text": "Americans",
+    "start": 31.44,
+    "end": 32
+  },
+  {
+    "id": "w95",
+    "text": "paid",
+    "start": 32,
+    "end": 32.4
+  },
+  {
+    "id": "w96",
+    "text": "a",
+    "start": 32.4,
+    "end": 32.48
+  },
+  {
+    "id": "w97",
+    "text": "true",
+    "start": 32.48,
+    "end": 32.8
+  },
+  {
+    "id": "w98",
+    "text": "tax",
+    "start": 32.8,
+    "end": 33.12
+  },
+  {
+    "id": "w99",
+    "text": "rate",
+    "start": 33.12,
+    "end": 33.44
+  },
+  {
+    "id": "w100",
+    "text": "of",
+    "start": 33.44,
+    "end": 33.52
+  },
+  {
+    "id": "w101",
+    "text": "just",
+    "start": 33.52,
+    "end": 33.76
+  },
+  {
+    "id": "w102",
+    "text": "3.4%.",
+    "start": 33.76,
+    "end": 35.6
+  },
+  {
+    "id": "w103",
+    "text": "Meanwhile,",
+    "start": 35.6,
+    "end": 36.48
+  },
+  {
+    "id": "w104",
+    "text": "your",
+    "start": 36.48,
+    "end": 36.72
+  },
+  {
+    "id": "w105",
+    "text": "tax",
+    "start": 36.72,
+    "end": 37.04
+  },
+  {
+    "id": "w106",
+    "text": "is",
+    "start": 37.04,
+    "end": 37.12
+  },
+  {
+    "id": "w107",
+    "text": "taken",
+    "start": 37.28,
+    "end": 37.6
+  },
+  {
+    "id": "w108",
+    "text": "before",
+    "start": 37.6,
+    "end": 37.92
+  },
+  {
+    "id": "w109",
+    "text": "your",
+    "start": 37.92,
+    "end": 38.08
+  },
+  {
+    "id": "w110",
+    "text": "paycheck",
+    "start": 38.08,
+    "end": 38.8
+  },
+  {
+    "id": "w111",
+    "text": "even",
+    "start": 38.8,
+    "end": 39.04
+  },
+  {
+    "id": "w112",
+    "text": "arrives.",
+    "start": 39.04,
+    "end": 39.84
+  },
+  {
+    "id": "w113",
+    "text": "So",
+    "start": 39.84,
+    "end": 40.16
+  },
+  {
+    "id": "w114",
+    "text": "the",
+    "start": 40.16,
+    "end": 40.32
+  },
+  {
+    "id": "w115",
+    "text": "real",
+    "start": 40.32,
+    "end": 40.56
+  },
+  {
+    "id": "w116",
+    "text": "question",
+    "start": 40.56,
+    "end": 40.96
+  },
+  {
+    "id": "w117",
+    "text": "isn't",
+    "start": 40.96,
+    "end": 41.36
+  },
+  {
+    "id": "w118",
+    "text": "how",
+    "start": 41.36,
+    "end": 41.6
+  },
+  {
+    "id": "w119",
+    "text": "much",
+    "start": 41.6,
+    "end": 41.84
+  },
+  {
+    "id": "w120",
+    "text": "you",
+    "start": 41.84,
+    "end": 42
+  },
+  {
+    "id": "w121",
+    "text": "earn,",
+    "start": 42,
+    "end": 42.56
+  },
+  {
+    "id": "w122",
+    "text": "it's",
+    "start": 42.56,
+    "end": 42.88
+  },
+  {
+    "id": "w123",
+    "text": "what",
+    "start": 42.88,
+    "end": 43.12
+  },
+  {
+    "id": "w124",
+    "text": "you",
+    "start": 43.12,
+    "end": 43.28
+  },
+  {
+    "id": "w125",
+    "text": "own.",
+    "start": 43.28,
+    "end": 43.68
+  }
+]

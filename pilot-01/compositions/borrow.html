@@ -1,0 +1,222 @@
+<template>
+  <style>
+    /*@css*/
+    /* ---- shorts master template: shared look (injected by tools/inject_common.py) ---- */
+    #root { position: absolute; inset: 0; overflow: hidden; background: #0b0b0b; }
+    .shot { position: absolute; inset: 0; overflow: hidden; }
+    .rig { position: absolute; inset: 0; }
+    .ph { position: absolute; inset: 0; overflow: hidden; }
+    .ph-move { position: absolute; left: -81px; top: -144px; width: 1242px; height: 2208px; }
+    .ph-move img, .fill img, .card img { width: 100%; height: 100%; object-fit: cover; display: block; }
+    .fill { position: absolute; inset: 0; }
+    .card {
+      position: absolute; overflow: hidden; background: #111;
+      border: 6px solid #f4f1ea; border-radius: 26px;
+      box-shadow: 0 34px 60px rgba(0, 0, 0, 0.55);
+    }
+    .scrim-top {
+      position: absolute; left: 0; right: 0; top: 0; height: 1000px;
+      background: linear-gradient(rgba(0, 0, 0, 0.66), rgba(0, 0, 0, 0.35) 55%, rgba(0, 0, 0, 0));
+    }
+    .scrim-cap {
+      position: absolute; left: 0; right: 0; top: 980px; height: 560px;
+      background: radial-gradient(ellipse 70% 50% at 50% 45%, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0));
+    }
+    .vig {
+      position: absolute; inset: 0; pointer-events: none;
+      background: radial-gradient(ellipse 85% 70% at 50% 45%, rgba(0, 0, 0, 0) 55%, rgba(0, 0, 0, 0.6) 100%);
+    }
+    .hl {
+      position: absolute; left: 70px; right: 70px;
+      font-family: "League Gothic", sans-serif; line-height: 0.9; color: #ffffff;
+      text-transform: uppercase; text-shadow: 0 6px 0 rgba(0, 0, 0, 0.85);
+    }
+    .kick {
+      position: absolute; left: 70px; right: 70px;
+      font-family: "Montserrat", sans-serif; font-weight: 900; font-size: 58px; line-height: 1.05;
+      color: #ffffff; text-transform: uppercase; text-shadow: 0 4px 0 rgba(0, 0, 0, 0.85);
+    }
+    .num { color: #ffc940; }
+    .g { color: #35e07a; }
+    .y { color: #ffc940; }
+    .r { color: #ff3b30; }
+    .stamp {
+      position: absolute; padding: 16px 34px 12px; white-space: nowrap;
+      border: 9px solid currentColor; border-radius: 14px; background: rgba(10, 10, 10, 0.84);
+      font-family: "Archivo Black", sans-serif; font-size: 74px; line-height: 1; text-transform: uppercase;
+    }
+    .paper {
+      position: absolute; background: #f4f1ea; color: #141414; border-radius: 6px;
+      font-family: "IBM Plex Mono", monospace; font-weight: 500;
+      box-shadow: 0 30px 60px rgba(0, 0, 0, 0.5);
+    }
+    .word { display: inline-block; }
+    /* ---- end shared look ---- */
+    /*@css-end*/
+    #bor-title { top: 220px; font-size: 330px; }
+    #bor-vault { left: 90px; top: 240px; width: 900px; height: 675px; }
+    #bor-paper { left: 120px; top: 620px; width: 840px; padding: 40px 46px 140px; font-size: 34px; line-height: 1.55; }
+    #bor-paper .p-title { font-weight: 700; font-size: 44px; letter-spacing: 0.04em; border-bottom: 3px solid #141414; padding-bottom: 12px; margin-bottom: 18px; }
+    #bor-paper .row { display: flex; justify-content: space-between; }
+    #bor-paper .row b { font-weight: 700; }
+    #bor-approved { left: 440px; top: 950px; color: #1f9d52; background: rgba(244, 241, 234, 0.0); font-size: 64px; border-width: 8px; }
+    #bor-ne { top: 230px; font-size: 230px; }
+    #bor-ne .ne { color: #ff3b30; }
+    #bor-zero { left: 110px; top: 730px; color: #ff3b30; font-size: 82px; }
+    #bor-yacht { left: 40px; top: 260px; width: 780px; height: 520px; }
+    #bor-jet { left: 270px; top: 640px; width: 760px; height: 507px; }
+    #bor-chart-kick { top: 228px; }
+    #bor-chart { position: absolute; left: 60px; top: 330px; width: 960px; height: 700px; }
+    .c-label { font-family: "Montserrat", sans-serif; font-weight: 900; font-size: 40px; }
+    #bor-dip { position: absolute; inset: 0; background: #000; opacity: 0; }
+  </style>
+  <div data-hf-id="hf-x6q2" id="root" data-composition-id="borrow" data-width="1080" data-height="1920">
+    <div data-hf-id="hf-zwvo" id="bor-rig" class="rig">
+      <!-- A: "Step two. Borrow." -->
+      <div data-hf-id="hf-c9tk" id="bor-a" class="shot clip" data-start="0" data-duration="1.28">
+        <div data-hf-id="hf-i8mw" class="ph"><div data-hf-id="hf-u844" id="bor-ma" class="ph-move"><img data-color-grading="{&quot;preset&quot;:&quot;deep-contrast&quot;,&quot;intensity&quot;:0.8,&quot;adjust&quot;:{&quot;exposure&quot;:-0.03,&quot;contrast&quot;:0.2,&quot;highlights&quot;:-0.08,&quot;shadows&quot;:-0.08,&quot;whites&quot;:0,&quot;blacks&quot;:-0.12,&quot;temperature&quot;:0,&quot;tint&quot;:0,&quot;vibrance&quot;:0,&quot;saturation&quot;:0.06},&quot;details&quot;:{&quot;vignette&quot;:0,&quot;vignetteMidpoint&quot;:0.5,&quot;vignetteRoundness&quot;:0,&quot;vignetteFeather&quot;:0.65,&quot;grain&quot;:0,&quot;grainSize&quot;:0.25,&quot;grainRoughness&quot;:0.5},&quot;effects&quot;:{&quot;blur&quot;:0,&quot;pixelate&quot;:0,&quot;chromaBleed&quot;:0,&quot;tapeDamage&quot;:0,&quot;tapeTracking&quot;:0,&quot;tapeNoise&quot;:1,&quot;tapeSpeed&quot;:0.5,&quot;filmArtifacts&quot;:0,&quot;halftone&quot;:0,&quot;halftoneSize&quot;:0,&quot;twoInkPrint&quot;:0,&quot;twoInkPrintSize&quot;:0,&quot;ascii&quot;:0,&quot;asciiSize&quot;:0.06578947368421052,&quot;asciiInvert&quot;:0,&quot;asciiStyle&quot;:0,&quot;asciiColor&quot;:1,&quot;asciiRotation&quot;:0,&quot;dither&quot;:0,&quot;ditherSize&quot;:0,&quot;bloom&quot;:0,&quot;bloomRadius&quot;:8,&quot;monoScreen&quot;:0,&quot;monoScreenSize&quot;:0,&quot;monoScreenAngle&quot;:0,&quot;monoScreenSpread&quot;:0,&quot;monoScreenShape&quot;:0,&quot;monoScreenInvert&quot;:0,&quot;scanlines&quot;:0,&quot;scanlineCount&quot;:0,&quot;scanlineSoftness&quot;:0,&quot;chromaticAberration&quot;:0,&quot;chromaticAngle&quot;:0,&quot;crtCurvature&quot;:0,&quot;digitalGlitch&quot;:0,&quot;digitalGlitchColorSplit&quot;:0,&quot;digitalGlitchLineTear&quot;:0,&quot;digitalGlitchPixelate&quot;:0,&quot;digitalGlitchBlockAmount&quot;:0,&quot;digitalGlitchBlockDisplacement&quot;:0,&quot;digitalGlitchBlockOpacity&quot;:0,&quot;digitalGlitchSpeed&quot;:0,&quot;engraving&quot;:0,&quot;engravingSpacing&quot;:0.4117647058823529,&quot;engravingMinThickness&quot;:0.2,&quot;engravingMaxThickness&quot;:0.4571428571428572,&quot;engravingAngle&quot;:0.25,&quot;engravingContrast&quot;:0.4666666666666667,&quot;engravingSharpness&quot;:0.59,&quot;engravingWave&quot;:0.2,&quot;engravingWaveFrequency&quot;:0.2222222222222222,&quot;crosshatch&quot;:0,&quot;crosshatchSpacing&quot;:0.28,&quot;crosshatchThickness&quot;:0.25,&quot;crosshatchAngle&quot;:0.25,&quot;crosshatchContrast&quot;:0.3333333333333333,&quot;crosshatchEdges&quot;:0.5,&quot;crosshatchLineWeight&quot;:0,&quot;crosshatchWave&quot;:0.33,&quot;crosshatchWaveFrequency&quot;:0.2222222222222222,&quot;kuwahara&quot;:0,&quot;kuwaharaRadius&quot;:0.14285714285714285,&quot;kuwaharaSharpness&quot;:0.3125,&quot;kuwaharaSaturation&quot;:0.5},&quot;lut&quot;:null,&quot;colorSpace&quot;:&quot;rec709&quot;}" data-hf-id="hf-2p1v" id="bor-img-a" src="assets/img/cash-stacks.jpg" alt="Stacks of dollar bills"></div></div>
+        <div data-hf-id="hf-0bcg" class="scrim-top"></div>
+        <div data-hf-id="hf-e4a6" class="vig"></div>
+        <div data-hf-id="hf-eb3q" id="bor-title" class="hl"><span data-hf-id="hf-l8o7" class="num">2 </span><span data-hf-id="hf-w9k7" class="y">Borrow</span></div>
+      </div>
+      <!-- B: "Instead of selling, they borrow against those stocks." -->
+      <div data-hf-id="hf-p65r" id="bor-b" class="shot clip" data-start="1.28" data-duration="2.64">
+        <div data-hf-id="hf-4qej" class="fill"><img data-hf-id="hf-andf" id="bor-fill-b" src="assets/img/vault-fill.jpg" alt=""></div>
+        <div data-hf-id="hf-8uf6" id="bor-vault" class="card"><img data-color-grading="{&quot;preset&quot;:&quot;deep-contrast&quot;,&quot;intensity&quot;:0.5,&quot;adjust&quot;:{&quot;exposure&quot;:-0.03,&quot;contrast&quot;:0.2,&quot;highlights&quot;:-0.08,&quot;shadows&quot;:-0.08,&quot;whites&quot;:0,&quot;blacks&quot;:-0.12,&quot;temperature&quot;:0,&quot;tint&quot;:0,&quot;vibrance&quot;:0,&quot;saturation&quot;:0.06},&quot;details&quot;:{&quot;vignette&quot;:0,&quot;vignetteMidpoint&quot;:0.5,&quot;vignetteRoundness&quot;:0,&quot;vignetteFeather&quot;:0.65,&quot;grain&quot;:0,&quot;grainSize&quot;:0.25,&quot;grainRoughness&quot;:0.5},&quot;effects&quot;:{&quot;blur&quot;:0,&quot;pixelate&quot;:0,&quot;chromaBleed&quot;:0,&quot;tapeDamage&quot;:0,&quot;tapeTracking&quot;:0,&quot;tapeNoise&quot;:1,&quot;tapeSpeed&quot;:0.5,&quot;filmArtifacts&quot;:0,&quot;halftone&quot;:0,&quot;halftoneSize&quot;:0,&quot;twoInkPrint&quot;:0,&quot;twoInkPrintSize&quot;:0,&quot;ascii&quot;:0,&quot;asciiSize&quot;:0.06578947368421052,&quot;asciiInvert&quot;:0,&quot;asciiStyle&quot;:0,&quot;asciiColor&quot;:1,&quot;asciiRotation&quot;:0,&quot;dither&quot;:0,&quot;ditherSize&quot;:0,&quot;bloom&quot;:0,&quot;bloomRadius&quot;:8,&quot;monoScreen&quot;:0,&quot;monoScreenSize&quot;:0,&quot;monoScreenAngle&quot;:0,&quot;monoScreenSpread&quot;:0,&quot;monoScreenShape&quot;:0,&quot;monoScreenInvert&quot;:0,&quot;scanlines&quot;:0,&quot;scanlineCount&quot;:0,&quot;scanlineSoftness&quot;:0,&quot;chromaticAberration&quot;:0,&quot;chromaticAngle&quot;:0,&quot;crtCurvature&quot;:0,&quot;digitalGlitch&quot;:0,&quot;digitalGlitchColorSplit&quot;:0,&quot;digitalGlitchLineTear&quot;:0,&quot;digitalGlitchPixelate&quot;:0,&quot;digitalGlitchBlockAmount&quot;:0,&quot;digitalGlitchBlockDisplacement&quot;:0,&quot;digitalGlitchBlockOpacity&quot;:0,&quot;digitalGlitchSpeed&quot;:0,&quot;engraving&quot;:0,&quot;engravingSpacing&quot;:0.4117647058823529,&quot;engravingMinThickness&quot;:0.2,&quot;engravingMaxThickness&quot;:0.4571428571428572,&quot;engravingAngle&quot;:0.25,&quot;engravingContrast&quot;:0.4666666666666667,&quot;engravingSharpness&quot;:0.59,&quot;engravingWave&quot;:0.2,&quot;engravingWaveFrequency&quot;:0.2222222222222222,&quot;crosshatch&quot;:0,&quot;crosshatchSpacing&quot;:0.28,&quot;crosshatchThickness&quot;:0.25,&quot;crosshatchAngle&quot;:0.25,&quot;crosshatchContrast&quot;:0.3333333333333333,&quot;crosshatchEdges&quot;:0.5,&quot;crosshatchLineWeight&quot;:0,&quot;crosshatchWave&quot;:0.33,&quot;crosshatchWaveFrequency&quot;:0.2222222222222222,&quot;kuwahara&quot;:0,&quot;kuwaharaRadius&quot;:0.14285714285714285,&quot;kuwaharaSharpness&quot;:0.3125,&quot;kuwaharaSaturation&quot;:0.5},&quot;lut&quot;:null,&quot;colorSpace&quot;:&quot;rec709&quot;}" data-hf-id="hf-26sh" id="bor-vault-img" src="assets/img/vault.jpg" alt="An open steel bank vault door"></div>
+        <div data-hf-id="hf-vhhs" id="bor-paper" class="paper">
+          <div data-hf-id="hf-q177" class="p-title">LOAN AGREEMENT</div>
+          <div data-hf-id="hf-thy4" class="row"><span data-hf-id="hf-2kl8">Collateral</span><b data-hf-id="hf-c5j2">Stocks ($10B)</b></div>
+          <div data-hf-id="hf-lt04" class="row"><span data-hf-id="hf-ptgh">Loan amount</span><b data-hf-id="hf-19qa">$500,000,000</b></div>
+          <div data-hf-id="hf-km31" class="row"><span data-hf-id="hf-5m70">Stocks sold</span><b data-hf-id="hf-sqbz">0</b></div>
+        </div>
+        <div data-hf-id="hf-1jqr" id="bor-approved" class="stamp" data-layout-allow-overlap>Approved</div>
+      </div>
+      <!-- C: "A loan isn't income, so there's no income tax." -->
+      <div data-hf-id="hf-rc4a" id="bor-c" class="shot clip" data-start="3.92" data-duration="2.72">
+        <div data-hf-id="hf-3axc" class="ph"><div data-hf-id="hf-15hq" id="bor-mc" class="ph-move"><img data-color-grading="{&quot;preset&quot;:&quot;deep-contrast&quot;,&quot;intensity&quot;:0.8,&quot;adjust&quot;:{&quot;exposure&quot;:-0.03,&quot;contrast&quot;:0.2,&quot;highlights&quot;:-0.08,&quot;shadows&quot;:-0.08,&quot;whites&quot;:0,&quot;blacks&quot;:-0.12,&quot;temperature&quot;:0,&quot;tint&quot;:0,&quot;vibrance&quot;:0,&quot;saturation&quot;:0.06},&quot;details&quot;:{&quot;vignette&quot;:0,&quot;vignetteMidpoint&quot;:0.5,&quot;vignetteRoundness&quot;:0,&quot;vignetteFeather&quot;:0.65,&quot;grain&quot;:0,&quot;grainSize&quot;:0.25,&quot;grainRoughness&quot;:0.5},&quot;effects&quot;:{&quot;blur&quot;:0,&quot;pixelate&quot;:0,&quot;chromaBleed&quot;:0,&quot;tapeDamage&quot;:0,&quot;tapeTracking&quot;:0,&quot;tapeNoise&quot;:1,&quot;tapeSpeed&quot;:0.5,&quot;filmArtifacts&quot;:0,&quot;halftone&quot;:0,&quot;halftoneSize&quot;:0,&quot;twoInkPrint&quot;:0,&quot;twoInkPrintSize&quot;:0,&quot;ascii&quot;:0,&quot;asciiSize&quot;:0.06578947368421052,&quot;asciiInvert&quot;:0,&quot;asciiStyle&quot;:0,&quot;asciiColor&quot;:1,&quot;asciiRotation&quot;:0,&quot;dither&quot;:0,&quot;ditherSize&quot;:0,&quot;bloom&quot;:0,&quot;bloomRadius&quot;:8,&quot;monoScreen&quot;:0,&quot;monoScreenSize&quot;:0,&quot;monoScreenAngle&quot;:0,&quot;monoScreenSpread&quot;:0,&quot;monoScreenShape&quot;:0,&quot;monoScreenInvert&quot;:0,&quot;scanlines&quot;:0,&quot;scanlineCount&quot;:0,&quot;scanlineSoftness&quot;:0,&quot;chromaticAberration&quot;:0,&quot;chromaticAngle&quot;:0,&quot;crtCurvature&quot;:0,&quot;digitalGlitch&quot;:0,&quot;digitalGlitchColorSplit&quot;:0,&quot;digitalGlitchLineTear&quot;:0,&quot;digitalGlitchPixelate&quot;:0,&quot;digitalGlitchBlockAmount&quot;:0,&quot;digitalGlitchBlockDisplacement&quot;:0,&quot;digitalGlitchBlockOpacity&quot;:0,&quot;digitalGlitchSpeed&quot;:0,&quot;engraving&quot;:0,&quot;engravingSpacing&quot;:0.4117647058823529,&quot;engravingMinThickness&quot;:0.2,&quot;engravingMaxThickness&quot;:0.4571428571428572,&quot;engravingAngle&quot;:0.25,&quot;engravingContrast&quot;:0.4666666666666667,&quot;engravingSharpness&quot;:0.59,&quot;engravingWave&quot;:0.2,&quot;engravingWaveFrequency&quot;:0.2222222222222222,&quot;crosshatch&quot;:0,&quot;crosshatchSpacing&quot;:0.28,&quot;crosshatchThickness&quot;:0.25,&quot;crosshatchAngle&quot;:0.25,&quot;crosshatchContrast&quot;:0.3333333333333333,&quot;crosshatchEdges&quot;:0.5,&quot;crosshatchLineWeight&quot;:0,&quot;crosshatchWave&quot;:0.33,&quot;crosshatchWaveFrequency&quot;:0.2222222222222222,&quot;kuwahara&quot;:0,&quot;kuwaharaRadius&quot;:0.14285714285714285,&quot;kuwaharaSharpness&quot;:0.3125,&quot;kuwaharaSaturation&quot;:0.5},&quot;lut&quot;:null,&quot;colorSpace&quot;:&quot;rec709&quot;}" data-hf-id="hf-k29h" id="bor-img-c" src="assets/img/cash-fan.jpg" alt="A hand fanning out hundred-dollar bills"></div></div>
+        <div data-hf-id="hf-dphk" class="scrim-top"></div>
+        <div data-hf-id="hf-cmya" class="vig"></div>
+        <div data-hf-id="hf-ry8b" id="bor-ne" class="hl"><span data-hf-id="hf-rc0f" class="word">Loan</span> <span data-hf-id="hf-9vsg" class="word ne">≠</span> <span data-hf-id="hf-uo4q" class="word">income</span></div>
+        <div data-hf-id="hf-rr4v" id="bor-zero" class="stamp">Income tax: $0</div>
+      </div>
+      <!-- D: "They live on the loan..." -->
+      <div data-hf-id="hf-rbb6" id="bor-d" class="shot clip" data-start="6.64" data-duration="1.5">
+        <div data-hf-id="hf-lwnf" class="fill"><img data-hf-id="hf-c4we" id="bor-fill-d" src="assets/img/yacht-fill.jpg" alt=""></div>
+        <div data-hf-id="hf-ikun" id="bor-yacht" class="card"><img data-color-grading="{&quot;preset&quot;:&quot;deep-contrast&quot;,&quot;intensity&quot;:0.5,&quot;adjust&quot;:{&quot;exposure&quot;:-0.03,&quot;contrast&quot;:0.2,&quot;highlights&quot;:-0.08,&quot;shadows&quot;:-0.08,&quot;whites&quot;:0,&quot;blacks&quot;:-0.12,&quot;temperature&quot;:0,&quot;tint&quot;:0,&quot;vibrance&quot;:0,&quot;saturation&quot;:0.06},&quot;details&quot;:{&quot;vignette&quot;:0,&quot;vignetteMidpoint&quot;:0.5,&quot;vignetteRoundness&quot;:0,&quot;vignetteFeather&quot;:0.65,&quot;grain&quot;:0,&quot;grainSize&quot;:0.25,&quot;grainRoughness&quot;:0.5},&quot;effects&quot;:{&quot;blur&quot;:0,&quot;pixelate&quot;:0,&quot;chromaBleed&quot;:0,&quot;tapeDamage&quot;:0,&quot;tapeTracking&quot;:0,&quot;tapeNoise&quot;:1,&quot;tapeSpeed&quot;:0.5,&quot;filmArtifacts&quot;:0,&quot;halftone&quot;:0,&quot;halftoneSize&quot;:0,&quot;twoInkPrint&quot;:0,&quot;twoInkPrintSize&quot;:0,&quot;ascii&quot;:0,&quot;asciiSize&quot;:0.06578947368421052,&quot;asciiInvert&quot;:0,&quot;asciiStyle&quot;:0,&quot;asciiColor&quot;:1,&quot;asciiRotation&quot;:0,&quot;dither&quot;:0,&quot;ditherSize&quot;:0,&quot;bloom&quot;:0,&quot;bloomRadius&quot;:8,&quot;monoScreen&quot;:0,&quot;monoScreenSize&quot;:0,&quot;monoScreenAngle&quot;:0,&quot;monoScreenSpread&quot;:0,&quot;monoScreenShape&quot;:0,&quot;monoScreenInvert&quot;:0,&quot;scanlines&quot;:0,&quot;scanlineCount&quot;:0,&quot;scanlineSoftness&quot;:0,&quot;chromaticAberration&quot;:0,&quot;chromaticAngle&quot;:0,&quot;crtCurvature&quot;:0,&quot;digitalGlitch&quot;:0,&quot;digitalGlitchColorSplit&quot;:0,&quot;digitalGlitchLineTear&quot;:0,&quot;digitalGlitchPixelate&quot;:0,&quot;digitalGlitchBlockAmount&quot;:0,&quot;digitalGlitchBlockDisplacement&quot;:0,&quot;digitalGlitchBlockOpacity&quot;:0,&quot;digitalGlitchSpeed&quot;:0,&quot;engraving&quot;:0,&quot;engravingSpacing&quot;:0.4117647058823529,&quot;engravingMinThickness&quot;:0.2,&quot;engravingMaxThickness&quot;:0.4571428571428572,&quot;engravingAngle&quot;:0.25,&quot;engravingContrast&quot;:0.4666666666666667,&quot;engravingSharpness&quot;:0.59,&quot;engravingWave&quot;:0.2,&quot;engravingWaveFrequency&quot;:0.2222222222222222,&quot;crosshatch&quot;:0,&quot;crosshatchSpacing&quot;:0.28,&quot;crosshatchThickness&quot;:0.25,&quot;crosshatchAngle&quot;:0.25,&quot;crosshatchContrast&quot;:0.3333333333333333,&quot;crosshatchEdges&quot;:0.5,&quot;crosshatchLineWeight&quot;:0,&quot;crosshatchWave&quot;:0.33,&quot;crosshatchWaveFrequency&quot;:0.2222222222222222,&quot;kuwahara&quot;:0,&quot;kuwaharaRadius&quot;:0.14285714285714285,&quot;kuwaharaSharpness&quot;:0.3125,&quot;kuwaharaSaturation&quot;:0.5},&quot;lut&quot;:null,&quot;colorSpace&quot;:&quot;rec709&quot;}" data-hf-id="hf-9bkb" id="bor-yacht-img" src="assets/img/yacht.jpg" alt="A superyacht docked at night"></div>
+        <div data-hf-id="hf-yizv" id="bor-jet" class="card"><img data-color-grading="{&quot;preset&quot;:&quot;deep-contrast&quot;,&quot;intensity&quot;:0.5,&quot;adjust&quot;:{&quot;exposure&quot;:-0.03,&quot;contrast&quot;:0.2,&quot;highlights&quot;:-0.08,&quot;shadows&quot;:-0.08,&quot;whites&quot;:0,&quot;blacks&quot;:-0.12,&quot;temperature&quot;:0,&quot;tint&quot;:0,&quot;vibrance&quot;:0,&quot;saturation&quot;:0.06},&quot;details&quot;:{&quot;vignette&quot;:0,&quot;vignetteMidpoint&quot;:0.5,&quot;vignetteRoundness&quot;:0,&quot;vignetteFeather&quot;:0.65,&quot;grain&quot;:0,&quot;grainSize&quot;:0.25,&quot;grainRoughness&quot;:0.5},&quot;effects&quot;:{&quot;blur&quot;:0,&quot;pixelate&quot;:0,&quot;chromaBleed&quot;:0,&quot;tapeDamage&quot;:0,&quot;tapeTracking&quot;:0,&quot;tapeNoise&quot;:1,&quot;tapeSpeed&quot;:0.5,&quot;filmArtifacts&quot;:0,&quot;halftone&quot;:0,&quot;halftoneSize&quot;:0,&quot;twoInkPrint&quot;:0,&quot;twoInkPrintSize&quot;:0,&quot;ascii&quot;:0,&quot;asciiSize&quot;:0.06578947368421052,&quot;asciiInvert&quot;:0,&quot;asciiStyle&quot;:0,&quot;asciiColor&quot;:1,&quot;asciiRotation&quot;:0,&quot;dither&quot;:0,&quot;ditherSize&quot;:0,&quot;bloom&quot;:0,&quot;bloomRadius&quot;:8,&quot;monoScreen&quot;:0,&quot;monoScreenSize&quot;:0,&quot;monoScreenAngle&quot;:0,&quot;monoScreenSpread&quot;:0,&quot;monoScreenShape&quot;:0,&quot;monoScreenInvert&quot;:0,&quot;scanlines&quot;:0,&quot;scanlineCount&quot;:0,&quot;scanlineSoftness&quot;:0,&quot;chromaticAberration&quot;:0,&quot;chromaticAngle&quot;:0,&quot;crtCurvature&quot;:0,&quot;digitalGlitch&quot;:0,&quot;digitalGlitchColorSplit&quot;:0,&quot;digitalGlitchLineTear&quot;:0,&quot;digitalGlitchPixelate&quot;:0,&quot;digitalGlitchBlockAmount&quot;:0,&quot;digitalGlitchBlockDisplacement&quot;:0,&quot;digitalGlitchBlockOpacity&quot;:0,&quot;digitalGlitchSpeed&quot;:0,&quot;engraving&quot;:0,&quot;engravingSpacing&quot;:0.4117647058823529,&quot;engravingMinThickness&quot;:0.2,&quot;engravingMaxThickness&quot;:0.4571428571428572,&quot;engravingAngle&quot;:0.25,&quot;engravingContrast&quot;:0.4666666666666667,&quot;engravingSharpness&quot;:0.59,&quot;engravingWave&quot;:0.2,&quot;engravingWaveFrequency&quot;:0.2222222222222222,&quot;crosshatch&quot;:0,&quot;crosshatchSpacing&quot;:0.28,&quot;crosshatchThickness&quot;:0.25,&quot;crosshatchAngle&quot;:0.25,&quot;crosshatchContrast&quot;:0.3333333333333333,&quot;crosshatchEdges&quot;:0.5,&quot;crosshatchLineWeight&quot;:0,&quot;crosshatchWave&quot;:0.33,&quot;crosshatchWaveFrequency&quot;:0.2222222222222222,&quot;kuwahara&quot;:0,&quot;kuwaharaRadius&quot;:0.14285714285714285,&quot;kuwaharaSharpness&quot;:0.3125,&quot;kuwaharaSaturation&quot;:0.5},&quot;lut&quot;:null,&quot;colorSpace&quot;:&quot;rec709&quot;}" data-hf-id="hf-mqmz" id="bor-jet-img" src="assets/img/jet.jpg" alt="A private jet in flight"></div>
+      </div>
+      <!-- E: "...while their stocks grow faster than the interest." -->
+      <div data-hf-id="hf-kw0a" id="bor-e" class="shot clip" data-start="8.14" data-duration="2.02">
+        <div data-hf-id="hf-lice" class="fill"><img data-hf-id="hf-k8x5" id="bor-fill-e" src="assets/img/screens-fill.jpg" alt=""></div>
+        <div data-hf-id="hf-cikh" class="scrim-top"></div>
+        <div data-hf-id="hf-m9sq" id="bor-chart-kick" class="kick">Stocks grow faster than the loan costs</div>
+        <svg data-hf-id="hf-x8j9" id="bor-chart" viewBox="0 0 960 700">
+          <line data-hf-id="hf-w5u7" x1="40" y1="640" x2="940" y2="640" stroke="rgba(255,255,255,0.55)" stroke-width="4" />
+          <line data-hf-id="hf-hi0u" x1="40" y1="40" x2="40" y2="640" stroke="rgba(255,255,255,0.55)" stroke-width="4" />
+          <path data-hf-id="hf-kyab" id="bor-gap" d="M40,600 C300,560 560,420 820,120 L820,520 C560,560 300,585 40,600 Z" fill="rgba(53,224,122,0.22)" />
+          <path data-hf-id="hf-bp8b" id="bor-green" d="M40,600 C300,560 560,420 820,120" fill="none" stroke="#35e07a" stroke-width="14" stroke-linecap="round" pathLength="100" stroke-dasharray="100 120" stroke-dashoffset="100" />
+          <path data-hf-id="hf-s8s4" id="bor-red" d="M40,600 C300,585 560,560 820,520" fill="none" stroke="#ff3b30" stroke-width="14" stroke-linecap="round" pathLength="100" stroke-dasharray="100 120" stroke-dashoffset="100" />
+          <text data-hf-id="hf-7jje" id="bor-lg" class="c-label" x="610" y="95" fill="#35e07a">STOCKS</text>
+          <text data-hf-id="hf-r1mz" id="bor-lr" class="c-label" x="560" y="600" fill="#ff3b30">INTEREST</text>
+        </svg>
+        <div data-hf-id="hf-6diy" id="bor-dip"></div>
+      </div>
+    </div>
+  </div>
+  <script>
+    //@js
+    // ---- shorts master template: shared motion (injected by tools/inject_common.py) ----
+    // Every helper adds tweens to `tl` at an absolute scene time; all are seek-safe.
+    const M = {
+      // ground: one slow camera push across a shot (continuous motion on the photo, never on titles)
+      push(tl, sel, t, dur, from = 1.0, to = 1.07, x = 0, y = 0) {
+        tl.fromTo(sel, { scale: from, x: 0, y: 0 }, { scale: to, x, y, duration: dur, ease: "power1.inOut" }, t);
+      },
+      // hard-cut arrival: the shot lands slightly large and settles
+      settle(tl, sel, t, from = 1.14) {
+        tl.fromTo(sel, { scale: from }, { scale: 1, duration: 0.5, ease: "expo.out", immediateRender: false }, t);
+      },
+      // title slam: big -> landed, then dead still
+      slam(tl, sel, t, from = 1.7) {
+        tl.fromTo(sel, { scale: from, opacity: 0 }, { scale: 1, opacity: 1, duration: 0.2, ease: "power4.out" }, t);
+      },
+      // per-word blur-in, 0.067 s apart, no translate
+      words(tl, sel, t, gap = 0.067) {
+        tl.fromTo(sel, { opacity: 0, filter: "blur(10px)" },
+          { opacity: 1, filter: "blur(0px)", duration: 0.14, ease: "power2.out", stagger: gap }, t);
+      },
+      // rubber stamp: drops from above the paper, lands with a small overshoot
+      stamp(tl, sel, t, rot = -6) {
+        tl.fromTo(sel, { scale: 2.3, rotation: rot - 12, opacity: 0 },
+          { scale: 1, rotation: rot, opacity: 1, duration: 0.16, ease: "power4.in" }, t);
+      },
+      // a 6-frame frame shake on a wrapper, seek-safe (baseline set once by the caller)
+      shake(tl, sel, t, amp = 16) {
+        tl.to(sel, {
+          keyframes: [
+            { x: -amp, y: amp * 0.5, duration: 0.033 }, { x: amp * 0.8, y: -amp * 0.6, duration: 0.033 },
+            { x: -amp * 0.5, y: amp * 0.4, duration: 0.033 }, { x: amp * 0.3, y: -amp * 0.2, duration: 0.033 },
+            { x: 0, y: 0, duration: 0.06 },
+          ], ease: "none",
+        }, t);
+      },
+      // card toss-in: from below with rotation, settles on a long tail
+      cardIn(tl, sel, t, rotFrom = 9, rotTo = -2, fromY = 300) {
+        tl.fromTo(sel, { y: fromY, rotation: rotFrom, opacity: 0 },
+          { y: 0, rotation: rotTo, opacity: 1, duration: 0.55, ease: "expo.out" }, t);
+      },
+      // exit: one smooth accelerating move
+      exitDown(tl, sel, t, dur = 0.3) {
+        tl.to(sel, { y: 380, opacity: 0, duration: dur, ease: "power3.in" }, t);
+      },
+      // number counter written into an element's text
+      count(tl, el, t, dur, from, to, fmt) {
+        const o = { v: from };
+        tl.fromTo(o, { v: from }, {
+          v: to, duration: dur, ease: "power3.out",
+          onUpdate: () => { document.querySelector(el).textContent = fmt(o.v); },
+        }, t);
+      },
+      // strike line drawing across (scaleX from the left)
+      strike(tl, sel, t) {
+        tl.fromTo(sel, { scaleX: 0 }, { scaleX: 1, duration: 0.22, ease: "power4.out" }, t);
+      },
+    };
+    // ---- end shared motion ----
+    //@js-end
+    const tl = gsap.timeline({ paused: true });
+    tl.set("#bor-rig", { x: 0, y: 0 }, 0);
+    // A: whip in from the right, then the title lands on "borrow"
+    tl.fromTo("#bor-rig", { x: 1150 }, { x: 0, duration: 0.3, ease: "expo.out", immediateRender: false }, 0);
+    M.push(tl, "#bor-ma", 0, 1.28, 1.02, 1.09, -20, 0);
+    M.slam(tl, "#bor-title", 0.78, 1.5);
+    // B: vault card + the loan agreement, stamped
+    tl.fromTo("#bor-fill-b", { scale: 1.1 }, { scale: 1.0, duration: 2.64, ease: "power1.out" }, 1.28);
+    M.cardIn(tl, "#bor-vault", 1.28, -7, 2, 260);
+    M.cardIn(tl, "#bor-paper", 1.62, 6, -2, 420);
+    tl.fromTo("#bor-paper .row", { opacity: 0 }, { opacity: 1, duration: 0.12, stagger: 0.25, ease: "power2.out" }, 2.0);
+    M.stamp(tl, "#bor-approved", 2.9, -9);
+    M.shake(tl, "#bor-rig", 3.06, 10);
+    // C: hard cut on "loan", the claim builds word by word, then the stamp on "income tax"
+    M.settle(tl, "#bor-mc", 3.92, 1.14);
+    M.push(tl, "#bor-mc", 4.42, 2.22, 1.0, 1.06, 0, 20);
+    M.words(tl, "#bor-ne .word", 4.0, 0.2);
+    M.stamp(tl, "#bor-zero", 5.46, -6);
+    M.shake(tl, "#bor-rig", 5.62, 16);
+    // D: the lifestyle the loan pays for
+    tl.fromTo("#bor-fill-d", { scale: 1.12 }, { scale: 1.02, duration: 1.5, ease: "power1.out" }, 6.64);
+    M.cardIn(tl, "#bor-yacht", 6.64, -10, -4, 320);
+    M.cardIn(tl, "#bor-jet", 7.08, 12, 3, 360);
+    // E: the race between growth and interest
+    tl.fromTo("#bor-fill-e", { scale: 1.08 }, { scale: 1.0, duration: 2.02, ease: "power1.out" }, 8.14);
+    M.words(tl, "#bor-chart-kick", 8.18, 0.05);
+    tl.fromTo("#bor-green", { attr: { "stroke-dashoffset": 100 } }, { attr: { "stroke-dashoffset": 0 }, duration: 1.2, ease: "power2.inOut" }, 8.3);
+    tl.fromTo("#bor-red", { attr: { "stroke-dashoffset": 100 } }, { attr: { "stroke-dashoffset": 0 }, duration: 1.2, ease: "power2.inOut" }, 8.4);
+    tl.fromTo("#bor-gap", { opacity: 0 }, { opacity: 1, duration: 0.6, ease: "power2.out" }, 9.1);
+    tl.fromTo("#bor-lg", { opacity: 0 }, { opacity: 1, duration: 0.15 }, 9.0);
+    tl.fromTo("#bor-lr", { opacity: 0 }, { opacity: 1, duration: 0.15 }, 9.5);
+    // dip: the frame darkens for 3 frames before the hard cut to black
+    tl.fromTo("#bor-dip", { opacity: 0 }, { opacity: 0.45, duration: 0.1, ease: "none" }, 10.04);
+    window.__timelines["borrow"] = tl;
+  </script>
+</template>

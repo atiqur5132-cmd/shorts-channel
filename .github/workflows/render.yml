@@ -1,0 +1,67 @@
+name: Render short
+
+on:
+  workflow_dispatch:
+    inputs:
+      project:
+        description: "Project folder to render (e.g. pilot-01)"
+        required: true
+        default: "pilot-01"
+      quality:
+        description: "Render quality: draft, looks or delivery"
+        required: true
+        default: "delivery"
+
+concurrency:
+  group: render-${{ inputs.project }}
+  cancel-in-progress: true
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    timeout-minutes: 150
+    env:
+      HF_VERSION: "0.8.208"
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 22
+
+      - name: Install ffmpeg
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq ffmpeg
+          ffmpeg -version | head -1
+
+      - name: Cache HyperFrames browser and fonts
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/hyperframes
+          key: hyperframes-${{ env.HF_VERSION }}-${{ runner.os }}
+
+      - name: Check composition
+        working-directory: ${{ inputs.project }}
+        run: npx --yes hyperframes@${HF_VERSION} check
+
+      - name: Render
+        working-directory: ${{ inputs.project }}
+        run: npx --yes hyperframes@${HF_VERSION} render -q "${{ inputs.quality }}" -o renders/raw.mp4
+
+      - name: Finish for Shorts (-14 LUFS, smaller file, fast start)
+        working-directory: ${{ inputs.project }}
+        run: |
+          ffmpeg -y -hide_banner -loglevel error -i renders/raw.mp4 \
+            -c:v libx264 -preset slow -crf 19 -pix_fmt yuv420p \
+            -af "loudnorm=I=-14:TP=-1:LRA=11" -c:a aac -b:a 192k -ar 48000 \
+            -movflags +faststart renders/final.mp4
+          ffprobe -v error -show_entries format=duration,size -of default=nw=1 renders/final.mp4
+          ffmpeg -hide_banner -i renders/final.mp4 -af ebur128=peak=true -f null - 2>&1 | grep -E "I:|Peak:" | tail -2
+
+      - name: Upload video
+        uses: actions/upload-artifact@v5
+        with:
+          name: ${{ inputs.project }}-short
+          path: ${{ inputs.project }}/renders/final.mp4
+          retention-days: 30
