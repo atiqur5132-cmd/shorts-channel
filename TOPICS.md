@@ -3,9 +3,9 @@
 ## Published
 | # | Date | Topic | URL |
 |---|---|---|---|
+| 01 | 2026-11-07 | Buy, Borrow, Die | https://youtube.com/shorts/4-LbTNL0PTo |
 
 ## Made, not yet published
-- 01 Buy, Borrow, Die (pilot-01)
 - 02 Buffett: the real secret is time (shorts/02-buffett-time)
 
 ## Backlog (verify every number before use)
