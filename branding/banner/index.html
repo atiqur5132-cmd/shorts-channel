@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en"><head><meta charset="UTF-8" /><meta name="viewport" content="width=2560, height=1440" />
+<style>
+* { margin:0; padding:0; box-sizing:border-box; }
+html, body { width:2560px; height:1440px; overflow:hidden; background:#0b0b0b; }
+#root { position:relative; width:2560px; height:1440px; overflow:hidden; background:#0b0b0b; }
+#bg { position:absolute; inset:0; width:100%; height:100%; object-fit:cover; object-position:50% 45%; }
+#shade { position:absolute; inset:0; background:linear-gradient(90deg, rgba(0,0,0,.88) 0%, rgba(0,0,0,.72) 45%, rgba(0,0,0,.35) 75%, rgba(0,0,0,.55) 100%); }
+#band { position:absolute; left:0; right:0; top:508px; height:423px; }
+#title { position:absolute; left:560px; top:518px; font-family:"League Gothic",sans-serif; font-size:230px; line-height:.9; color:#fff; text-transform:uppercase; text-shadow:0 8px 0 rgba(0,0,0,.85); letter-spacing:.01em; }
+#title .y { color:#ffc940; }
+#tag { position:absolute; left:566px; top:760px; font-family:"Montserrat",sans-serif; font-weight:900; font-size:38px; color:#fff; text-transform:uppercase; text-shadow:0 4px 0 rgba(0,0,0,.85); }
+#tag .r { color:#ff3b30; }
+#stamp { position:absolute; left:1590px; top:560px; padding:16px 30px 10px; border:9px solid #35e07a; border-radius:14px; color:#35e07a; background:rgba(10,10,10,.82); font-family:"Archivo Black",sans-serif; font-size:52px; line-height:1.05; text-transform:uppercase; transform:rotate(-7deg); text-align:center; }
+</style></head>
+<body>
+<div id="root" data-composition-id="main" data-start="0" data-duration="1" data-width="2560" data-height="1440" data-no-timeline>
+  <img id="bg" src="assets/skyline-night.jpg" alt="Office towers at night" />
+  <div id="shade"></div>
+  <div id="title">The <span class="y">Rich</span> Rules</div>
+  <div id="tag">The money rules they <span class="r">don't</span> teach you in school</div>
+  <div id="stamp">New short<br />every day</div>
+</div>
+</body></html>

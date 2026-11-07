@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="en"><head><meta charset="UTF-8" /><meta name="viewport" content="width=800, height=800" />
+<style>
+* { margin:0; padding:0; box-sizing:border-box; }
+html, body { width:800px; height:800px; overflow:hidden; background:#0b0b0b; }
+#root { position:relative; width:800px; height:800px; background:radial-gradient(circle at 50% 42%, #1d1a12 0%, #0b0b0b 70%); overflow:hidden; }
+#ring { position:absolute; left:60px; top:60px; width:680px; height:680px; border-radius:50%; border:14px solid #ffc940; }
+#mono { position:absolute; left:0; right:0; top:150px; text-align:center; font-family:"League Gothic",sans-serif; font-size:470px; line-height:1; color:#ffc940; text-shadow:0 12px 0 rgba(0,0,0,.9); letter-spacing:-.01em; }
+#bar { position:absolute; left:250px; top:612px; width:300px; height:22px; background:#ff3b30; border-radius:4px; }
+</style></head>
+<body>
+<div id="root" data-composition-id="main" data-start="0" data-duration="1" data-width="800" data-height="800" data-no-timeline>
+  <div id="ring"></div>
+  <div id="mono">RR</div>
+  <div id="bar"></div>
+</div>
+</body></html>
