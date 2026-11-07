@@ -1,0 +1,156 @@
+{
+ "slug": "02-buffett-time",
+ "title": "Warren Buffett's Real Secret Isn't Stock Picking 🤯 #shorts",
+ "description": "Of Warren Buffett's $84.5 billion, $81.5 billion came after his 65th birthday. The real secret is time and compounding.\nSource: Morgan Housel, \"The Psychology of Money\" (2020).",
+ "tags": [
+  "warren buffett",
+  "compound interest",
+  "investing",
+  "psychology of money",
+  "money facts",
+  "start investing early"
+ ],
+ "music": "suspense.mp3",
+ "script": [
+  "Warren Buffett's real secret isn't picking stocks. It's time.",
+  "He bought his first stock at just eleven years old.",
+  "By thirty, he was a millionaire. Impressive, but not legendary.",
+  "Here's the crazy part.",
+  "Of his eighty-four point five billion dollar fortune, eighty-one point five billion came after his sixty-fifth birthday.",
+  "That's compounding. Money making money, on money it already made.",
+  "If he had started at thirty and retired at sixty, he'd be worth about twelve million. You would never know his name.",
+  "So the best time to start was yesterday. The second best time is today."
+ ],
+ "captions": {
+  "green": [
+   "compounding",
+   "today",
+   "time",
+   "secret"
+  ],
+  "gold": [
+   "buffett",
+   "warren",
+   "eleven",
+   "millionaire",
+   "fortune",
+   "billion",
+   "birthday"
+  ],
+  "red": [
+   "never",
+   "crazy",
+   "yesterday"
+  ]
+ },
+ "shots": [
+  {
+   "type": "photo",
+   "cue": "Warren",
+   "img": "hourglass",
+   "alt": "An hourglass on a wooden table",
+   "kicker": "Warren Buffett's real secret",
+   "headline": "It's [y]time.[/y]",
+   "hsize": 300
+  },
+  {
+   "type": "card",
+   "cue": "He",
+   "img": "certificate",
+   "alt": "A 1929 stock certificate",
+   "headline": "First stock\nat age [y]11[/y]"
+  },
+  {
+   "type": "photo",
+   "cue": "By",
+   "img": "cash-stacks",
+   "alt": "Stacks of dollar bills",
+   "kicker": "By age 30",
+   "counter": {
+    "from": 0,
+    "to": 1,
+    "prefix": "$",
+    "suffix": "M",
+    "cue": "millionaire",
+    "color": "g"
+   },
+   "stamp": {
+    "text": "Not legendary",
+    "color": "y",
+    "cue": "legendary"
+   }
+  },
+  {
+   "type": "title",
+   "cue": "Here's",
+   "img": "skyline-night",
+   "alt": "Office towers at night",
+   "word": "Wait...",
+   "color": "r",
+   "size": 360
+  },
+  {
+   "type": "bignum",
+   "cue": "Of",
+   "fill": "gold-bars",
+   "kicker": "Of his [y]$84.5B[/y] fortune",
+   "from": 0,
+   "to": 81.5,
+   "decimals": 1,
+   "prefix": "$",
+   "suffix": "B",
+   "land": "after",
+   "label": "came after age [y]65[/y]",
+   "source": "Source: Morgan Housel, The Psychology of Money"
+  },
+  {
+   "type": "chart",
+   "cue": "That's",
+   "fill": "screens",
+   "kicker": "Money making money",
+   "up": "COMPOUNDING",
+   "flat": "SAVING"
+  },
+  {
+   "type": "paper",
+   "cue": "If",
+   "fill": "office-worker",
+   "title": "WHAT IF HE STARTED AT 30?",
+   "rows": [
+    [
+     "Started investing",
+     "age 30"
+    ],
+    [
+     "Retired",
+     "age 60"
+    ],
+    [
+     "Net worth",
+     "~$12M"
+    ],
+    [
+     "vs. real fortune",
+     "-99.9%"
+    ]
+   ],
+   "minus": [
+    3
+   ],
+   "stamp": {
+    "text": "Nobody knows him",
+    "color": "r",
+    "cue": "never"
+   }
+  },
+  {
+   "type": "photo",
+   "cue": "So",
+   "img": "sunrise",
+   "alt": "The sun rising over the sea",
+   "kicker": "Best time to start: [r]yesterday[/r]",
+   "headline": "Next best:\n[g]today.[/g]",
+   "dark": true
+  }
+ ]
+}

@@ -27,6 +27,9 @@ def main():
         if a == "--fix":
             pat, rep = args[i + 1].split("=")
             fixes.append((pat.split(" "), rep))
+        elif a in ("--green", "--gold", "--red"):
+            target = {"--green": KEY_GREEN, "--gold": KEY_GOLD, "--red": KEY_RED}[a]
+            target.update(w.strip().lower() for w in args[i + 1].split(",") if w.strip())
 
     words = json.load(open(src, encoding="utf-8"))
     words = words["words"] if isinstance(words, dict) else words
