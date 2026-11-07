@@ -11,6 +11,10 @@ on:
         description: "Render quality: draft, looks or delivery"
         required: true
         default: "delivery"
+      run_check:
+        description: "Run hyperframes check first (slow on CI; it already runs locally)"
+        type: boolean
+        default: false
 
 concurrency:
   group: render-${{ inputs.project }}
@@ -42,12 +46,13 @@ jobs:
           key: hyperframes-${{ env.HF_VERSION }}-${{ runner.os }}
 
       - name: Check composition
+        if: ${{ inputs.run_check }}
         working-directory: ${{ inputs.project }}
         run: npx --yes hyperframes@${HF_VERSION} check
 
       - name: Render
         working-directory: ${{ inputs.project }}
-        run: npx --yes hyperframes@${HF_VERSION} render -q "${{ inputs.quality }}" -o renders/raw.mp4
+        run: npx --yes hyperframes@${HF_VERSION} render -q "${{ inputs.quality }}" --workers 4 -o renders/raw.mp4
 
       - name: Finish for Shorts (-14 LUFS, smaller file, fast start)
         working-directory: ${{ inputs.project }}
