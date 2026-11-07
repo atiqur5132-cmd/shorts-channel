@@ -39,7 +39,14 @@ Check the duration and the loudness (about -14 LUFS).
 Send `renders/phone.mp4` to the owner with the title, description and tags. **Wait for an explicit yes.**
 
 ## 8. Upload (only after the yes)
-Through Claude in Chrome (launch Chrome with `Start-Process chrome.exe` if the extension isn't connected):
-Studio → Create → Upload → `renders/final.mp4` → title, description (the upload default adds the footer), tags,
-"No, it's not made for kids", altered content: No (narrated explainer) → Visibility **Public** → Publish.
-Add the URL and date to `TOPICS.md` under "Published".
+The Chrome extension can't put files over 10 MB into an upload box, so the **owner picks the file**:
+1. Copy `renders/final.mp4` to `C:\Users\atiqu\Desktop\youtube ch\UPLOAD\NN-slug.mp4`.
+2. Through Claude in Chrome (launch Chrome with `Start-Process chrome.exe` if needed) open
+   `https://studio.youtube.com/channel/UCTK8SpirJ81YVH-Jw8gb34Q/videos/upload?d=ud`, then ask the owner to click
+   "Select files", choose that file, and say "ho gaya".
+3. Title; the description goes above the default footer (ctrl+Home, type, then 2 Enters); "No, it's not made for kids";
+   Show advanced settings → AI use: **No** (narrated explainer: no real person faked, no real footage altered,
+   no fake realistic scene, no AI music); add video-specific tags.
+4. Next ×3 → Visibility **Public**. **Wait until the footer says "Checks complete. No issues found."**, then Publish.
+   If the checks find a problem, don't publish: tell the owner.
+5. Add the URL and date to `TOPICS.md` under "Published", then commit and push.

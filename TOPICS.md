@@ -4,9 +4,9 @@
 | # | Date | Topic | URL |
 |---|---|---|---|
 | 01 | 2026-11-07 | Buy, Borrow, Die | https://youtube.com/shorts/4-LbTNL0PTo |
+| 02 | 2026-11-07 | Buffett: the real secret is time | https://youtube.com/shorts/hbfYwVMt0pc |
 
 ## Made, not yet published
-- 02 Buffett: the real secret is time (shorts/02-buffett-time)
 
 ## Backlog (verify every number before use)
 - The Rule of 72: how fast money doubles
