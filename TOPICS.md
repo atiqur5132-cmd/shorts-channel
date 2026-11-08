@@ -7,9 +7,9 @@
 | 02 | 2026-11-07 | Buffett: the real secret is time | https://youtube.com/shorts/hbfYwVMt0pc |
 
 ## Made, not yet published
+- 03 | 2026-11-08 | The Rule of 72 | shorts/03-rule-of-72 (waiting for owner OK)
 
 ## Backlog (verify every number before use)
-- The Rule of 72: how fast money doubles
 - Why lottery winners go broke (studies vs myths; check the sources carefully)
 - How credit cards make money from people who "never pay interest" (interchange fees)
 - The latte factor: what $5 a day really becomes over 30 years
