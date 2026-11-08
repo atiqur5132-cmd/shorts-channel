@@ -1,0 +1,150 @@
+{
+ "slug": "03-rule-of-72",
+ "title": "The 1-Line Math Trick for Doubling Your Money 🤯 #shorts",
+ "description": "The Rule of 72: divide 72 by a yearly rate to estimate how many years it takes to double. It works for savings, debt and inflation.\nSource: Corporate Finance Institute, \"Rule of 72\"; Nasdaq glossary, \"Rule of 72\". Examples are simple math (72 ÷ rate), estimates only. Education, not financial advice.",
+ "tags": [
+  "rule of 72",
+  "compound interest",
+  "money tips",
+  "personal finance",
+  "credit card debt",
+  "inflation",
+  "investing basics",
+  "money facts"
+ ],
+ "music": "suspense.mp3",
+ "script": [
+  "There's a one-line math trick that tells you when your money doubles.",
+  "It's called the Rule of seventy-two.",
+  "Take seventy-two. Divide it by your yearly return.",
+  "Earn eight percent a year, and your money doubles in about nine years.",
+  "Leave it in a savings account at one percent? Around seventy years.",
+  "Now flip it around. Credit card debt at twenty-four percent doubles in just three years.",
+  "And three percent inflation cuts your cash's buying power in half in about twenty-four years.",
+  "So for every rate in your life, ask one thing: is it doubling for me, or against me?"
+ ],
+ "captions": {
+  "green": [
+   "doubles",
+   "doubling",
+   "trick",
+   "return"
+  ],
+  "gold": [
+   "rule",
+   "seventy-two",
+   "72",
+   "eight",
+   "8%",
+   "nine",
+   "math"
+  ],
+  "red": [
+   "debt",
+   "inflation",
+   "against",
+   "half",
+   "slow"
+  ],
+  "fix": [
+   "cash'=cash's"
+  ]
+ },
+ "shots": [
+  {
+   "type": "photo",
+   "cue": "There's",
+   "img": "gold-piggy",
+   "alt": "A golden piggy bank",
+   "kicker": "One line of math",
+   "headline": "When does your\nmoney [g]double?[/g]",
+   "dark": true
+  },
+  {
+   "type": "title",
+   "cue": "called",
+   "img": "skyline-night",
+   "alt": "Office towers at night",
+   "word": "RULE OF 72",
+   "color": "y",
+   "size": 230
+  },
+  {
+   "type": "card",
+   "cue": "Take",
+   "img": "calculator",
+   "alt": "A financial calculator",
+   "headline": "[y]72[/y] ÷ yearly return\n= years to [g]double[/g]"
+  },
+  {
+   "type": "bignum",
+   "cue": "Earn",
+   "fill": "gold-bars",
+   "kicker": "Earning [g]8%[/g] a year",
+   "from": 0,
+   "to": 9,
+   "decimals": 0,
+   "suffix": " yrs",
+   "land": "nine",
+   "label": "to [g]double[/g] your money",
+   "source": "72 ÷ 8 = 9 (Rule of 72 estimate)"
+  },
+  {
+   "type": "paper",
+   "cue": "Leave",
+   "fill": "vault",
+   "title": "SAVINGS ACCOUNT AT 1%",
+   "rows": [
+    [
+     "Yearly rate",
+     "1%"
+    ],
+    [
+     "Rule of 72 says",
+     "72 years"
+    ],
+    [
+     "Exact math",
+     "~70 years"
+    ]
+   ],
+   "stamp": {
+    "text": "Too slow",
+    "color": "r",
+    "cue": "around"
+   }
+  },
+  {
+   "type": "card",
+   "cue": "Now",
+   "img": "credit-cards",
+   "alt": "Credit cards in a jeans pocket",
+   "kicker": "Credit card debt at [r]24%[/r]",
+   "counter": {
+    "from": 0,
+    "to": 3,
+    "decimals": 0,
+    "suffix": " yrs",
+    "cue": "just",
+    "color": "r"
+   }
+  },
+  {
+   "type": "chart",
+   "cue": "and",
+   "fill": "screens",
+   "kicker": "[r]3%[/r] inflation: cash loses half in ~24 yrs",
+   "up": "PRICES",
+   "flat": "YOUR CASH"
+  },
+  {
+   "type": "photo",
+   "cue": "So",
+   "img": "sunrise",
+   "alt": "The sun rising over the sea",
+   "kicker": "For every rate, ask:",
+   "headline": "Doubling [g]for me[/g]\nor against me?",
+   "dark": true
+  }
+ ]
+}

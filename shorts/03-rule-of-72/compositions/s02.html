@@ -1,0 +1,134 @@
+<template>
+  <style>
+    /*@css*/
+    /* ---- shorts master template: shared look (injected by tools/inject_common.py) ---- */
+    #root { position: absolute; inset: 0; overflow: hidden; background: #0b0b0b; }
+    .shot { position: absolute; inset: 0; overflow: hidden; }
+    .rig { position: absolute; inset: 0; }
+    .ph { position: absolute; inset: 0; overflow: hidden; }
+    .ph-move { position: absolute; left: -81px; top: -144px; width: 1242px; height: 2208px; }
+    .ph-move img, .fill img, .card img { width: 100%; height: 100%; object-fit: cover; display: block; }
+    .fill { position: absolute; inset: 0; }
+    .card {
+      position: absolute; overflow: hidden; background: #111;
+      border: 6px solid #f4f1ea; border-radius: 26px;
+      box-shadow: 0 34px 60px rgba(0, 0, 0, 0.55);
+    }
+    .scrim-top {
+      position: absolute; left: 0; right: 0; top: 0; height: 1000px;
+      background: linear-gradient(rgba(0, 0, 0, 0.66), rgba(0, 0, 0, 0.35) 55%, rgba(0, 0, 0, 0));
+    }
+    .scrim-cap {
+      position: absolute; left: 0; right: 0; top: 980px; height: 560px;
+      background: radial-gradient(ellipse 70% 50% at 50% 45%, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0));
+    }
+    .vig {
+      position: absolute; inset: 0; pointer-events: none;
+      background: radial-gradient(ellipse 85% 70% at 50% 45%, rgba(0, 0, 0, 0) 55%, rgba(0, 0, 0, 0.6) 100%);
+    }
+    .hl {
+      position: absolute; left: 70px; right: 70px;
+      font-family: "League Gothic", sans-serif; line-height: 0.9; color: #ffffff;
+      text-transform: uppercase; text-shadow: 0 6px 0 rgba(0, 0, 0, 0.85);
+    }
+    .kick {
+      position: absolute; left: 70px; right: 70px;
+      font-family: "Montserrat", sans-serif; font-weight: 900; font-size: 58px; line-height: 1.05;
+      color: #ffffff; text-transform: uppercase; text-shadow: 0 4px 0 rgba(0, 0, 0, 0.85);
+    }
+    .num { color: #ffc940; }
+    .g { color: #35e07a; }
+    .y { color: #ffc940; }
+    .r { color: #ff3b30; }
+    .stamp {
+      position: absolute; padding: 16px 34px 12px; white-space: nowrap;
+      border: 9px solid currentColor; border-radius: 14px; background: rgba(10, 10, 10, 0.84);
+      font-family: "Archivo Black", sans-serif; font-size: 74px; line-height: 1; text-transform: uppercase;
+    }
+    .paper {
+      position: absolute; background: #f4f1ea; color: #141414; border-radius: 6px;
+      font-family: "IBM Plex Mono", monospace; font-weight: 500;
+      box-shadow: 0 30px 60px rgba(0, 0, 0, 0.5);
+    }
+    .word { display: inline-block; }
+    /* ---- end shared look ---- */
+    /*@css-end*/
+    #s02-word { top: 470px; left: 0; right: 0; text-align: center; font-size: 230px; }
+  </style>
+  <div id="root" data-composition-id="s02" data-width="1080" data-height="1920">
+    <div id="s02-rig" class="rig">
+      <div id="s02-shot" class="shot clip" data-start="0" data-duration="2.0">
+        <div class="ph"><div id="s02-move" class="ph-move"><img id="s02-img" src="assets/img/skyline-night.jpg" alt="Office towers at night" /></div></div>
+        <div class="scrim-top"></div><div class="vig"></div>
+        <div id="s02-word" class="hl y">RULE OF 72</div>
+      </div>
+    </div>
+  </div>
+  <script>
+    //@js
+    // ---- shorts master template: shared motion (injected by tools/inject_common.py) ----
+    // Every helper adds tweens to `tl` at an absolute scene time; all are seek-safe.
+    const M = {
+      // ground: one slow camera push across a shot (continuous motion on the photo, never on titles)
+      push(tl, sel, t, dur, from = 1.0, to = 1.07, x = 0, y = 0) {
+        tl.fromTo(sel, { scale: from, x: 0, y: 0 }, { scale: to, x, y, duration: dur, ease: "power1.inOut" }, t);
+      },
+      // hard-cut arrival: the shot lands slightly large and settles
+      settle(tl, sel, t, from = 1.14) {
+        tl.fromTo(sel, { scale: from }, { scale: 1, duration: 0.5, ease: "expo.out", immediateRender: false }, t);
+      },
+      // title slam: big -> landed, then dead still
+      slam(tl, sel, t, from = 1.7) {
+        tl.fromTo(sel, { scale: from, opacity: 0 }, { scale: 1, opacity: 1, duration: 0.2, ease: "power4.out" }, t);
+      },
+      // per-word blur-in, 0.067 s apart, no translate
+      words(tl, sel, t, gap = 0.067) {
+        tl.fromTo(sel, { opacity: 0, filter: "blur(10px)" },
+          { opacity: 1, filter: "blur(0px)", duration: 0.14, ease: "power2.out", stagger: gap }, t);
+      },
+      // rubber stamp: drops from above the paper, lands with a small overshoot
+      stamp(tl, sel, t, rot = -6) {
+        tl.fromTo(sel, { scale: 2.3, rotation: rot - 12, opacity: 0 },
+          { scale: 1, rotation: rot, opacity: 1, duration: 0.16, ease: "power4.in" }, t);
+      },
+      // a 6-frame frame shake on a wrapper, seek-safe (baseline set once by the caller)
+      shake(tl, sel, t, amp = 16) {
+        tl.to(sel, {
+          keyframes: [
+            { x: -amp, y: amp * 0.5, duration: 0.033 }, { x: amp * 0.8, y: -amp * 0.6, duration: 0.033 },
+            { x: -amp * 0.5, y: amp * 0.4, duration: 0.033 }, { x: amp * 0.3, y: -amp * 0.2, duration: 0.033 },
+            { x: 0, y: 0, duration: 0.06 },
+          ], ease: "none",
+        }, t);
+      },
+      // card toss-in: from below with rotation, settles on a long tail
+      cardIn(tl, sel, t, rotFrom = 9, rotTo = -2, fromY = 300) {
+        tl.fromTo(sel, { y: fromY, rotation: rotFrom, opacity: 0 },
+          { y: 0, rotation: rotTo, opacity: 1, duration: 0.55, ease: "expo.out" }, t);
+      },
+      // exit: one smooth accelerating move
+      exitDown(tl, sel, t, dur = 0.3) {
+        tl.to(sel, { y: 380, opacity: 0, duration: dur, ease: "power3.in" }, t);
+      },
+      // number counter written into an element's text
+      count(tl, el, t, dur, from, to, fmt) {
+        const o = { v: from };
+        tl.fromTo(o, { v: from }, {
+          v: to, duration: dur, ease: "power3.out",
+          onUpdate: () => { document.querySelector(el).textContent = fmt(o.v); },
+        }, t);
+      },
+      // strike line drawing across (scaleX from the left)
+      strike(tl, sel, t) {
+        tl.fromTo(sel, { scaleX: 0 }, { scaleX: 1, duration: 0.22, ease: "power4.out" }, t);
+      },
+    };
+    // ---- end shared motion ----
+    //@js-end
+    const tl = gsap.timeline({ paused: true });
+    tl.set("#s02-rig", { x: 0, y: 0 }, 0);
+    tl.fromTo("#s02-move", { scale: 1.02 }, { scale: 1.1, duration: 2.0, ease: "power2.out" }, 0);
+    tl.fromTo("#s02-word", { scale: 1.35 }, { scale: 1, duration: 0.22, ease: "expo.out" }, 0);
+    window.__timelines["s02"] = tl;
+  </script>
+</template>
