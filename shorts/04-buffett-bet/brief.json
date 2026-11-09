@@ -1,0 +1,160 @@
+{
+ "slug": "04-buffett-bet",
+ "title": "Buffett Bet $1M Against Wall Street's Best 🤯 #shorts",
+ "description": "In 2007 Warren Buffett bet $1 million that a plain S&P 500 index fund would beat a hand-picked group of hedge funds over 10 years. The index fund gained 125.8%; the best fund-of-funds gained 87.7%.\nSource: Berkshire Hathaway 2017 Shareholder Letter (\"The Bet\" is Over); CNN Money, Feb 24 2018; CNBC, Feb 16 2018. Past results don't predict future returns. Education, not financial advice.",
+ "tags": [
+  "warren buffett",
+  "buffett bet",
+  "index funds",
+  "hedge funds",
+  "investing fees",
+  "s&p 500",
+  "investing basics",
+  "money facts"
+ ],
+ "music": "suspense.mp3",
+ "script": [
+  "Warren Buffett bet a million dollars that a boring fund would beat Wall Street's best.",
+  "His pick: a simple S and P five hundred index fund. Then do nothing for ten years.",
+  "The other side picked five funds that owned over two hundred hedge funds.",
+  "Ten years later, the index fund was up one hundred twenty-five point eight percent.",
+  "The best pros? Eighty-seven point seven. One fund made just two point eight.",
+  "The reason? Fees. Paid every single year, win or lose.",
+  "Buffett's charity got over two point two million dollars.",
+  "Performance comes and goes. Fees never do."
+ ],
+ "captions": {
+  "green": [
+   "index",
+   "boring",
+   "simple",
+   "charity",
+   "nothing"
+  ],
+  "gold": [
+   "buffett",
+   "buffett's",
+   "warren",
+   "million",
+   "best",
+   "ten",
+   "percent"
+  ],
+  "red": [
+   "fees",
+   "lose",
+   "never",
+   "just"
+  ]
+ },
+ "shots": [
+  {
+   "type": "photo",
+   "cue": "Warren",
+   "img": "wallst-sign",
+   "alt": "A Wall Street street sign",
+   "kicker": "Buffett's [y]$1 million[/y] bet",
+   "headline": "Boring fund\nvs. [r]Wall Street[/r]",
+   "dark": true
+  },
+  {
+   "type": "card",
+   "cue": "His",
+   "img": "trading-laptop",
+   "alt": "A laptop showing a stock chart",
+   "kicker": "His pick",
+   "headline": "[g]S&P 500[/g]\nindex fund",
+   "stamp": {
+    "text": "Do nothing",
+    "color": "y",
+    "cue": "nothing"
+   }
+  },
+  {
+   "type": "photo",
+   "cue": "The",
+   "img": "dark-office",
+   "alt": "A dark office at night",
+   "kicker": "The other side",
+   "headline": "5 funds\n[y]200+[/y] hedge funds",
+   "dark": true
+  },
+  {
+   "type": "bignum",
+   "cue": "Ten",
+   "fill": "screens",
+   "kicker": "Index fund, [y]10 years[/y]",
+   "from": 0,
+   "to": 125.8,
+   "decimals": 1,
+   "prefix": "+",
+   "suffix": "%",
+   "land": "up",
+   "label": "2008 to 2017",
+   "source": "Source: Berkshire Hathaway 2017 letter",
+   "size": 380
+  },
+  {
+   "type": "paper",
+   "cue": "best",
+   "fill": "office-worker",
+   "title": "THE 10-YEAR SCORECARD",
+   "rows": [
+    [
+     "S&P index fund",
+     "+125.8%"
+    ],
+    [
+     "Best pro fund",
+     "+87.7%"
+    ],
+    [
+     "Worst pro fund",
+     "+2.8%"
+    ]
+   ],
+   "minus": [
+    2
+   ],
+   "stamp": {
+    "text": "Beaten by boring",
+    "color": "r",
+    "cue": "just"
+   }
+  },
+  {
+   "type": "title",
+   "cue": "reason",
+   "img": "skyline-night",
+   "alt": "Office towers at night",
+   "word": "FEES.",
+   "color": "r",
+   "size": 360
+  },
+  {
+   "type": "card",
+   "cue": "Buffett's",
+   "img": "vault",
+   "alt": "An old steel bank vault",
+   "kicker": "Buffett's charity got",
+   "counter": {
+    "from": 0,
+    "to": 2.2,
+    "decimals": 1,
+    "prefix": "$",
+    "suffix": "M",
+    "cue": "over",
+    "color": "g"
+   }
+  },
+  {
+   "type": "photo",
+   "cue": "Performance",
+   "img": "sunrise",
+   "alt": "The sun rising over the sea",
+   "kicker": "Results come and go",
+   "headline": "Fees [y]never[/y] do.",
+   "dark": true
+  }
+ ]
+}
