@@ -8,6 +8,7 @@
 
 ## Made, not yet published
 - 03 | 2026-11-08 | The Rule of 72 | shorts/03-rule-of-72 (waiting for owner OK)
+- 04 | 2026-11-09 | Buffett's $1M bet: index fund vs hedge funds | shorts/04-buffett-bet (waiting for owner OK)
 
 ## Backlog (verify every number before use)
 - Why lottery winners go broke (studies vs myths; check the sources carefully)
@@ -17,7 +18,6 @@
 - Inflation: what $100 from 2000 buys today
 - The S&P 500's worst decade, and what happened next
 - Why billionaires pay themselves $1 salaries
-- Index funds vs stock pickers: the Buffett vs hedge-fund bet (2008–2017)
 - How Apple's cash pile compares to countries' GDP
 - The real cost of minimum payments on a credit card
 - Why the house always wins: the casino edge in numbers
