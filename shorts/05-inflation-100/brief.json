@@ -1,0 +1,160 @@
+{
+ "slug": "05-inflation-100",
+ "title": "Your $100 From 2000 Lost Half Its Power 💸 #shorts",
+ "description": "What cost $100 in the year 2000 costs about $196 today (September 2026 US CPI). Prices rose 3.7% in the last 12 months alone.\nSource: US Bureau of Labor Statistics, CPI-U (2000 annual average 172.2; September 2026 index 336.940, release of Oct 14 2026); cross-checked with officialdata.org inflation calculator. Education, not financial advice.",
+ "tags": [
+  "inflation",
+  "cpi",
+  "purchasing power",
+  "cost of living",
+  "rule of 72",
+  "personal finance",
+  "money facts",
+  "dollar value"
+ ],
+ "music": "dark-time.mp3",
+ "script": [
+  "Your hundred dollar bill from the year two thousand has lost almost half its power.",
+  "Same bill. Same paper. It just buys less.",
+  "To buy what a hundred bought back then, you'd need about one hundred ninety-six dollars today.",
+  "That's official government price data, not a guess.",
+  "And in the last twelve months alone, prices rose three point seven percent.",
+  "At that pace, the Rule of seventy-two says prices double in about twenty years.",
+  "Nobody steals it. Inflation just quietly takes a bite, every single year.",
+  "Cash that sits still is shrinking. Money that grows can keep up."
+ ],
+ "captions": {
+  "green": [
+   "grows",
+   "keep"
+  ],
+  "gold": [
+   "hundred",
+   "dollar",
+   "official",
+   "percent",
+   "double",
+   "twenty"
+  ],
+  "red": [
+   "lost",
+   "half",
+   "less",
+   "inflation",
+   "shrinking",
+   "bite"
+  ],
+  "fix": [
+   "2=20"
+  ]
+ },
+ "shots": [
+  {
+   "type": "card",
+   "cue": "Your",
+   "img": "franklin-100",
+   "alt": "A US hundred dollar bill",
+   "kicker": "Your [y]$100[/y] from 2000",
+   "headline": "Lost almost\n[r]half[/r] its power"
+  },
+  {
+   "type": "photo",
+   "cue": "Same",
+   "img": "cash-stacks",
+   "alt": "Stacks of US dollar bills",
+   "kicker": "Same bill. Same paper.",
+   "headline": "It buys [r]less[/r]",
+   "dark": true
+  },
+  {
+   "type": "bignum",
+   "cue": "To",
+   "fill": "screens",
+   "kicker": "What [y]$100[/y] bought in 2000",
+   "from": 100,
+   "to": 196,
+   "decimals": 0,
+   "prefix": "$",
+   "land": "today",
+   "label": "costs today (Sept 2026)",
+   "source": "Source: US BLS, CPI-U",
+   "size": 380
+  },
+  {
+   "type": "paper",
+   "cue": "That's",
+   "fill": "calculator",
+   "title": "US PRICE INDEX (CPI)",
+   "rows": [
+    [
+     "2000 average",
+     "172.2"
+    ],
+    [
+     "Sept 2026",
+     "336.9"
+    ],
+    [
+     "Change",
+     "+96%"
+    ]
+   ],
+   "minus": [
+    2
+   ],
+   "stamp": {
+    "text": "Not a guess",
+    "color": "y",
+    "cue": "guess"
+   }
+  },
+  {
+   "type": "card",
+   "cue": "And",
+   "img": "carts",
+   "alt": "Shopping carts outside a supermarket",
+   "kicker": "Prices, last 12 months",
+   "counter": {
+    "from": 0,
+    "to": 3.7,
+    "decimals": 1,
+    "prefix": "+",
+    "suffix": "%",
+    "cue": "rose",
+    "color": "r"
+   }
+  },
+  {
+   "type": "photo",
+   "cue": "At",
+   "img": "hourglass",
+   "alt": "An hourglass",
+   "kicker": "Rule of 72: 72 ÷ 3.7",
+   "headline": "Prices [y]double[/y]\nin about 20 yrs",
+   "dark": true,
+   "stamp": {
+    "text": "Rule of 72",
+    "color": "y",
+    "cue": "double"
+   }
+  },
+  {
+   "type": "title",
+   "cue": "Nobody",
+   "img": "skyline-night",
+   "alt": "Office towers at night",
+   "word": "INFLATION.",
+   "color": "r",
+   "size": 200
+  },
+  {
+   "type": "photo",
+   "cue": "Cash",
+   "img": "sunrise",
+   "alt": "The sun rising over the sea",
+   "kicker": "Cash that sits still",
+   "headline": "is [r]shrinking[/r].",
+   "dark": true
+  }
+ ]
+}
