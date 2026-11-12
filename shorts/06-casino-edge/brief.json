@@ -1,0 +1,150 @@
+{
+ "slug": "06-casino-edge",
+ "title": "Why the Casino Always Wins (It's Just Math) 🎰 #shorts",
+ "description": "An American roulette wheel has 38 pockets but pays only 35 to 1 on a single number. That gap is a 5.26% house edge: about $5.26 lost per $100 bet, on average.\nSource: Encyclopaedia Britannica, \"Roulette: House odds\"; PokerNews, \"American vs European Roulette\". Education, not financial advice.",
+ "tags": [
+  "casino",
+  "house edge",
+  "roulette",
+  "probability",
+  "expected value",
+  "money facts",
+  "gambling math",
+  "personal finance"
+ ],
+ "music": "suspense.mp3",
+ "script": [
+  "A casino doesn't need luck. The math wins before the wheel even spins.",
+  "An American roulette wheel has thirty-eight pockets.",
+  "Bet on one number and win, and they pay you thirty-five to one.",
+  "But fair odds would be thirty-seven to one.",
+  "That small gap is the house edge. Five point two six percent.",
+  "So for every hundred dollars you bet, you lose about five dollars and twenty-six cents, on average.",
+  "One night, that's luck. A million spins, it's a guarantee.",
+  "In money, the math always wins. Make sure it's working for you, not against you."
+ ],
+ "captions": {
+  "green": [
+   "you",
+   "working"
+  ],
+  "gold": [
+   "math",
+   "american",
+   "thirty",
+   "pockets",
+   "percent",
+   "dollars",
+   "million",
+   "edge"
+  ],
+  "red": [
+   "lose",
+   "guarantee",
+   "against",
+   "casino"
+  ],
+  "fix": [
+   "how's=house"
+  ]
+ },
+ "shots": [
+  {
+   "type": "photo",
+   "cue": "casino",
+   "img": "casino-entrance",
+   "alt": "A casino entrance at night",
+   "kicker": "No luck needed",
+   "headline": "The [y]math[/y] wins.",
+   "dark": true
+  },
+  {
+   "type": "card",
+   "cue": "American",
+   "img": "roulette",
+   "alt": "A roulette wheel",
+   "kicker": "American roulette",
+   "headline": "[y]38[/y] pockets"
+  },
+  {
+   "type": "bignum",
+   "cue": "bet",
+   "fill": "chips",
+   "kicker": "Your number hits?",
+   "from": 0,
+   "to": 35,
+   "decimals": 0,
+   "suffix": " to 1",
+   "land": "to",
+   "label": "what they pay you",
+   "size": 280
+  },
+  {
+   "type": "paper",
+   "cue": "But",
+   "fill": "table",
+   "title": "THE PAYOUT GAP",
+   "rows": [
+    [
+     "Fair odds",
+     "37 to 1"
+    ],
+    [
+     "Casino pays",
+     "35 to 1"
+    ],
+    [
+     "Kept by house",
+     "2 of 38"
+    ]
+   ],
+   "minus": [
+    2
+   ],
+   "stamp": {
+    "text": "Built-in gap",
+    "color": "y",
+    "cue": "fair"
+   }
+  },
+  {
+   "type": "title",
+   "cue": "That",
+   "img": "casino-floor",
+   "alt": "A casino floor full of slot machines",
+   "word": "HOUSE EDGE.",
+   "color": "r",
+   "size": 190
+  },
+  {
+   "type": "bignum",
+   "cue": "So",
+   "fill": "stacks",
+   "kicker": "For every [y]$100[/y] you bet",
+   "from": 0,
+   "to": 5.26,
+   "decimals": 2,
+   "prefix": "-$",
+   "land": "lose",
+   "label": "lost, on average (5.26% edge)",
+   "source": "Source: Britannica, Roulette house odds"
+  },
+  {
+   "type": "chart",
+   "cue": "One",
+   "fill": "wheel",
+   "kicker": "More spins, surer win",
+   "up": "THE HOUSE",
+   "flat": "THE PLAYER"
+  },
+  {
+   "type": "photo",
+   "cue": "In",
+   "img": "sunrise",
+   "alt": "The sun rising over the sea",
+   "kicker": "The math always wins",
+   "headline": "Make it work\n[g]for you.[/g]",
+   "dark": true
+  }
+ ]
+}
