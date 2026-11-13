@@ -1,0 +1,161 @@
+{
+ "slug": "07-monopoly-landlords",
+ "title": "Monopoly Was Invented to WARN You About Landlords 🎲 #shorts",
+ "description": "In 1904 Lizzie Magie patented The Landlord's Game to show how landlords get rich from rent. Decades later Charles Darrow sold a copy as Monopoly, and Parker Brothers bought her patent for just $500.\nSource: Encyclopaedia Britannica, \"Lizzie G. Magie\"; Smithsonian Magazine, \"A New Monopoly Celebrates Women...\" (2019); NPR, \"Ever Cheat At Monopoly? So Did Its Creator\" (2015). Education, not financial advice.",
+ "tags": [
+  "monopoly",
+  "lizzie magie",
+  "landlords game",
+  "board game history",
+  "money facts",
+  "rent",
+  "economics",
+  "money history"
+ ],
+ "music": "suspense.mp3",
+ "script": [
+  "Monopoly was invented to warn you about landlords. Not to make you one.",
+  "In nineteen oh four, a woman named Lizzie Magie patented The Landlord's Game.",
+  "Her point was simple. Owners collect rent, while everyone else slowly goes broke.",
+  "People loved it. They copied it and passed it around for decades.",
+  "Then a man named Charles Darrow sold a version as his own invention.",
+  "Parker Brothers made it a hit. And Lizzie? They bought her patent for just five hundred dollars.",
+  "A game about greed became a lesson in greed.",
+  "So next time you play, remember who the game was warning you about."
+ ],
+ "captions": {
+  "green": [
+   "owners",
+   "collect",
+   "hit"
+  ],
+  "gold": [
+   "monopoly",
+   "landlords",
+   "landlord's",
+   "lizzie",
+   "magie",
+   "patented",
+   "game",
+   "decades",
+   "parker",
+   "brothers",
+   "$500",
+   "darrow",
+   "charles",
+   "patent"
+  ],
+  "red": [
+   "warn",
+   "warning",
+   "broke",
+   "greed",
+   "copied",
+   "own"
+  ],
+  "fix": [
+   "Lizzy=Lizzie",
+   "Lizzy,=Lizzie,",
+   "Magey=Magie"
+  ]
+ },
+ "shots": [
+  {
+   "type": "photo",
+   "cue": "Monopoly",
+   "img": "rowhouse",
+   "alt": "A narrow brick row house",
+   "kicker": "Monopoly was made to",
+   "headline": "[r]WARN[/r] you about\nlandlords.",
+   "dark": true
+  },
+  {
+   "type": "card",
+   "cue": "In",
+   "img": "patent",
+   "alt": "Lizzie Magie's 1904 patent drawing of The Landlord's Game",
+   "kicker": "1904: Lizzie Magie",
+   "headline": "The [y]Landlord's[/y]\nGame",
+   "stamp": {
+    "text": "Patented",
+    "color": "y",
+    "cue": "patented"
+   }
+  },
+  {
+   "type": "paper",
+   "cue": "Her",
+   "fill": "money-pile",
+   "title": "HOW HER GAME WORKED",
+   "rows": [
+    [
+     "Owners",
+     "collect rent"
+    ],
+    [
+     "Everyone else",
+     "pays rent"
+    ],
+    [
+     "In the end",
+     "broke"
+    ]
+   ],
+   "minus": [
+    2
+   ]
+  },
+  {
+   "type": "card",
+   "cue": "People",
+   "img": "board-piece",
+   "alt": "Pieces on a Monopoly board",
+   "kicker": "People loved it",
+   "headline": "Shared for\n[y]decades[/y]",
+   "stamp": {
+    "text": "Copied",
+    "color": "r",
+    "cue": "copied"
+   }
+  },
+  {
+   "type": "title",
+   "cue": "Then",
+   "img": "skyline-night",
+   "alt": "Office towers at night",
+   "word": "HIS IDEA?",
+   "color": "r",
+   "size": 250
+  },
+  {
+   "type": "bignum",
+   "cue": "Parker",
+   "fill": "vault",
+   "kicker": "What Parker Brothers paid Lizzie",
+   "from": 0,
+   "to": 500,
+   "decimals": 0,
+   "prefix": "$",
+   "land": "bought",
+   "label": "for her [y]whole patent[/y]",
+   "source": "Source: Smithsonian Magazine; NPR"
+  },
+  {
+   "type": "chart",
+   "cue": "game",
+   "fill": "board-jail",
+   "kicker": "A game about greed",
+   "up": "THE OWNERS",
+   "flat": "EVERYONE ELSE"
+  },
+  {
+   "type": "photo",
+   "cue": "So",
+   "img": "sunrise",
+   "alt": "The sun rising over the sea",
+   "kicker": "Next time you play",
+   "headline": "Remember who\nit [r]warned[/r] you\nabout.",
+   "dark": true
+  }
+ ]
+}
