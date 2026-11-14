@@ -12,6 +12,7 @@
 - 05 | 2026-11-10 | Inflation: what $100 from 2000 buys today | shorts/05-inflation-100 (waiting for owner OK)
 - 06 | 2026-11-12 | Why the house always wins: the casino edge | shorts/06-casino-edge (waiting for owner OK)
 - 07 | 2026-11-13 | Monopoly was invented to warn about landlords | shorts/07-monopoly-landlords (waiting for owner OK)
+- 08 | 2026-11-14 | How Costco makes money: membership fees | shorts/08-costco-membership (waiting for owner OK)
 
 ## Backlog (verify every number before use)
 - Why lottery winners go broke (studies vs myths; check the sources carefully)
@@ -36,6 +37,5 @@
 - Why gold has beaten cash, but not stocks, over 50 years
 - The "Cantillon effect": who gets new money first
 - What happens to your money when a bank fails (deposit insurance)
-- How Costco makes money (membership fees)
 - Why airlines make more from credit cards than from flights
 - Lifestyle creep: why raises don't make people rich
