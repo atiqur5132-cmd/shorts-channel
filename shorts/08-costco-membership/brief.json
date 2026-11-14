@@ -1,0 +1,171 @@
+{
+ "slug": "08-costco-membership",
+ "title": "Costco Doesn't Make Its Money Selling Groceries 🛒 #shorts",
+ "description": "In fiscal 2026 Costco sold $297.2 billion of goods but made $9.2 billion in profit. Membership fees alone brought in $5.9 billion, about two-thirds of that profit. That's why the $1.50 hot dog combo hasn't changed since 1985.\nSource: Costco Wholesale, \"Q4 and Fiscal Year 2026 Operating Results\" (Sept 24, 2026); Stock Titan / Pulse 2.0 coverage of the same results; Fox Business, \"Why Costco hot dogs have kept $1.50 price tag since 1985\"; Business Insider. Education, not financial advice.",
+ "tags": [
+  "costco",
+  "costco membership",
+  "business model",
+  "how companies make money",
+  "money facts",
+  "subscription business",
+  "costco hot dog",
+  "retail"
+ ],
+ "music": "suspense.mp3",
+ "script": [
+  "Costco barely makes money selling you groceries. It makes money before you even walk in.",
+  "Last year, Costco sold almost three hundred billion dollars of stuff.",
+  "But its profit was only about nine point two billion.",
+  "Here's the trick.",
+  "Membership fees alone brought in almost six billion. That's about two thirds of the whole profit, from a plastic card.",
+  "So Costco can keep prices crazy low. The hot dog combo still costs a dollar fifty, just like in nineteen eighty-five.",
+  "Cheap prices make people renew. More than ninety percent of members in the US and Canada come back.",
+  "Costco isn't really a store. It's a subscription, with groceries attached."
+ ],
+ "captions": {
+  "green": [
+   "subscription",
+   "renew",
+   "cheap",
+   "low"
+  ],
+  "gold": [
+   "costco",
+   "membership",
+   "fees",
+   "billion",
+   "$300",
+   "$9.2",
+   "$6",
+   "$1.50",
+   "1985",
+   "90%",
+   "profit",
+   "card",
+   "hot",
+   "dog"
+  ],
+  "red": [
+   "barely",
+   "only",
+   "crazy",
+   "trick"
+  ]
+ },
+ "shots": [
+  {
+   "type": "photo",
+   "cue": "Costco",
+   "img": "costco-front",
+   "alt": "The entrance of a Costco warehouse",
+   "kicker": "Costco makes its money",
+   "headline": "BEFORE you\nwalk [y]in.[/y]",
+   "dark": true
+  },
+  {
+   "type": "card",
+   "cue": "Last",
+   "img": "costco-inside",
+   "alt": "Shoppers inside a Costco warehouse",
+   "kicker": "Last year Costco sold",
+   "counter": {
+    "from": 0,
+    "to": 297.2,
+    "decimals": 1,
+    "prefix": "$",
+    "suffix": "B",
+    "cue": "billion",
+    "color": "y"
+   }
+  },
+  {
+   "type": "paper",
+   "cue": "but",
+   "fill": "money-pile",
+   "title": "COSTCO, FISCAL 2026",
+   "rows": [
+    [
+     "Sales",
+     "$297.2B"
+    ],
+    [
+     "Profit",
+     "$9.2B"
+    ],
+    [
+     "Kept per $1 sold",
+     "~3 cents"
+    ]
+   ],
+   "minus": [
+    2
+   ],
+   "stamp": {
+    "text": "Tiny margin",
+    "color": "r",
+    "cue": "only"
+   }
+  },
+  {
+   "type": "title",
+   "cue": "Here's",
+   "img": "skyline-night",
+   "alt": "Office towers at night",
+   "word": "THE TRICK",
+   "color": "y",
+   "size": 300
+  },
+  {
+   "type": "bignum",
+   "cue": "Membership",
+   "fill": "credit-cards",
+   "kicker": "Membership fees alone",
+   "from": 0,
+   "to": 5.9,
+   "decimals": 1,
+   "prefix": "$",
+   "suffix": "B",
+   "land": "billion",
+   "label": "about [y]2/3[/y] of all profit",
+   "source": "Source: Costco FY2026 results"
+  },
+  {
+   "type": "card",
+   "cue": "So",
+   "img": "hotdog",
+   "alt": "A hot dog on a plate",
+   "kicker": "Hot dog + soda combo",
+   "headline": "Still [g]$1.50[/g]",
+   "stamp": {
+    "text": "Since 1985",
+    "color": "y",
+    "cue": "just"
+   }
+  },
+  {
+   "type": "photo",
+   "cue": "Cheap",
+   "img": "costco-street",
+   "alt": "A Costco warehouse at a city street corner",
+   "kicker": "Members who renew",
+   "counter": {
+    "from": 0,
+    "to": 90,
+    "decimals": 0,
+    "suffix": "%+",
+    "cue": "members",
+    "color": "g"
+   },
+   "dark": true
+  },
+  {
+   "type": "card",
+   "cue": "Costco",
+   "img": "carts",
+   "alt": "A row of shopping carts",
+   "kicker": "Not really a store",
+   "headline": "A [g]subscription[/g]\nwith groceries."
+  }
+ ]
+}
