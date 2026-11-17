@@ -13,6 +13,7 @@
 - 06 | 2026-11-12 | Why the house always wins: the casino edge | shorts/06-casino-edge (waiting for owner OK)
 - 07 | 2026-11-13 | Monopoly was invented to warn about landlords | shorts/07-monopoly-landlords (waiting for owner OK)
 - 08 | 2026-11-14 | How Costco makes money: membership fees | shorts/08-costco-membership (waiting for owner OK)
+- 09 | 2026-11-17 | The 4% rule for retirement | shorts/09-four-percent-rule (waiting for owner OK)
 
 ## Backlog (verify every number before use)
 - Why lottery winners go broke (studies vs myths; check the sources carefully)
@@ -26,7 +27,6 @@
 - Stock buybacks explained in 40 seconds
 - What a "basis point" costs you on a mortgage
 - Why your paycheck feels smaller every year (bracket creep vs inflation)
-- The 4% rule for retirement
 - How much interest a 30-year mortgage really costs
 - Why "rich dad" buys assets and "poor dad" buys liabilities (assets vs liabilities)
 - Dollar-cost averaging vs timing the market
