@@ -1,0 +1,173 @@
+{
+ "slug": "09-four-percent-rule",
+ "title": "The 4% Rule: How Much Money You Need to Retire 💰 #shorts",
+ "description": "In 1994 planner Bill Bengen tested every 30-year period of US market data back to 1926: withdrawing 4% in year one, then raising it with inflation, always lasted at least 30 years. $1M -> $40,000 a year, or yearly spending x 25. In his 2025 book he raised it to 4.7%. It's history, not a guarantee.\nSource: W. Bengen, \"Determining Withdrawal Rates Using Historical Data\", Journal of Financial Planning (Oct 1994); Kitces.com and Morningstar summaries; Advisor Perspectives and AAII on \"A Richer Retirement\" (2025). Education, not financial advice.",
+ "tags": [
+  "4% rule",
+  "retirement",
+  "financial independence",
+  "fire movement",
+  "safe withdrawal rate",
+  "money facts",
+  "personal finance",
+  "retire early",
+  "bill bengen"
+ ],
+ "music": "suspense.mp3",
+ "script": [
+  "There's a simple rule that tells you how much money you need to retire.",
+  "It's called the four percent rule.",
+  "In nineteen ninety-four, a planner named Bill Bengen tested every thirty-year stretch of the US market, back to nineteen twenty-six.",
+  "Here's what he found.",
+  "Take out four percent in year one, then just raise it with inflation, and the money lasted at least thirty years. Every single time.",
+  "So with one million dollars, you could spend forty thousand a year.",
+  "Flip it around. Take your yearly spending, times twenty-five. That's your number.",
+  "In twenty twenty-five, Bengen even raised it to four point seven percent. But remember, it's history, not a promise."
+ ],
+ "captions": {
+  "green": [
+   "rule",
+   "number",
+   "lasted",
+   "raised",
+   "retire"
+  ],
+  "gold": [
+   "bengen",
+   "bill",
+   "4%",
+   "$1",
+   "million",
+   "$40,000",
+   "25",
+   "4.7%",
+   "1994",
+   "1926",
+   "inflation",
+   "thirty",
+   "30",
+   "benjen",
+   "40,000"
+  ],
+  "red": [
+   "every",
+   "promise",
+   "history"
+  ],
+  "fix": [
+   "benjen=Bengen"
+  ]
+ },
+ "shots": [
+  {
+   "type": "card",
+   "cue": "There's",
+   "img": "villa",
+   "alt": "A villa with a pool",
+   "kicker": "One simple rule tells you",
+   "headline": "How much to\n[y]retire.[/y]"
+  },
+  {
+   "type": "title",
+   "cue": "It's",
+   "img": "skyline-night",
+   "alt": "Office towers at night",
+   "word": "4% RULE",
+   "color": "g",
+   "size": 300
+  },
+  {
+   "type": "paper",
+   "cue": "In",
+   "fill": "screens",
+   "title": "BILL BENGEN, 1994",
+   "rows": [
+    [
+     "US market data",
+     "since 1926"
+    ],
+    [
+     "Each test",
+     "30 years"
+    ],
+    [
+     "Portfolio",
+     "stocks + bonds"
+    ]
+   ],
+   "stamp": {
+    "text": "Every 30 years",
+    "color": "y",
+    "cue": "every"
+   }
+  },
+  {
+   "type": "card",
+   "cue": "Here's",
+   "img": "office-worker",
+   "alt": "A man working at a desk",
+   "kicker": "Here's what",
+   "headline": "he [y]found.[/y]"
+  },
+  {
+   "type": "photo",
+   "cue": "Take",
+   "img": "hourglass",
+   "alt": "An hourglass on a wooden table",
+   "kicker": "Take out [y]4%[/y] in year one",
+   "headline": "+ inflation\nevery year",
+   "stamp": {
+    "text": "Lasted 30+ years",
+    "color": "g",
+    "cue": "single"
+   },
+   "dark": true
+  },
+  {
+   "type": "bignum",
+   "cue": "So",
+   "fill": "gold-bars",
+   "kicker": "With [y]$1M[/y] saved",
+   "from": 0,
+   "to": 40,
+   "decimals": 0,
+   "prefix": "$",
+   "land": "spend",
+   "label": "to spend [g]per year[/g]",
+   "source": "Source: Bengen (1994), Journal of Financial Planning",
+   "suffix": "K"
+  },
+  {
+   "type": "card",
+   "cue": "Flip",
+   "img": "calculator",
+   "alt": "A calculator on a desk",
+   "kicker": "Your yearly spending",
+   "headline": "× [g]25[/g]\n= your number"
+  },
+  {
+   "type": "photo",
+   "cue": "In",
+   "img": "sunrise",
+   "alt": "The sun rising over the sea",
+   "kicker": "Bengen's 2025 update",
+   "counter": {
+    "from": 4.0,
+    "to": 4.7,
+    "decimals": 1,
+    "suffix": "%",
+    "cue": "raised",
+    "color": "g"
+   },
+   "dark": true
+  },
+  {
+   "type": "card",
+   "cue": "But",
+   "img": "vault",
+   "alt": "A bank vault door",
+   "kicker": "But remember",
+   "headline": "History,\nnot a [r]promise.[/r]"
+  }
+ ]
+}
