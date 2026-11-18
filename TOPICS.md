@@ -14,6 +14,7 @@
 - 07 | 2026-11-13 | Monopoly was invented to warn about landlords | shorts/07-monopoly-landlords (waiting for owner OK)
 - 08 | 2026-11-14 | How Costco makes money: membership fees | shorts/08-costco-membership (waiting for owner OK)
 - 09 | 2026-11-17 | The 4% rule for retirement | shorts/09-four-percent-rule (waiting for owner OK)
+- 10 | 2026-11-18 | How Visa makes money without lending a cent | shorts/10-visa-toll (waiting for owner OK)
 
 ## Backlog (verify every number before use)
 - Why lottery winners go broke (studies vs myths; check the sources carefully)
@@ -33,7 +34,6 @@
 - The richest family in history: Rothschild myths vs facts
 - Why Switzerland's banks are famous (bank secrecy, then and now)
 - Swiss watch, not a Rolex: luxury brand markups
-- How Visa makes money without lending a cent
 - Why gold has beaten cash, but not stocks, over 50 years
 - The "Cantillon effect": who gets new money first
 - What happens to your money when a bank fails (deposit insurance)
