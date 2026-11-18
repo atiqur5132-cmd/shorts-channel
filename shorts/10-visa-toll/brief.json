@@ -1,0 +1,192 @@
+{
+ "slug": "10-visa-toll",
+ "title": "How Visa Makes Billions Without Lending You a Cent 💳 #shorts",
+ "description": "Visa doesn't issue cards, lend money or set your interest rate: your bank does. Visa runs the payment network and charges a small fee on each payment. In fiscal 2026 that added up to $45.9B in net revenue and $23.5B in net income.\nSource: Visa fiscal Q4 & full-year 2026 earnings release (Oct 27, 2026, SEC Form 8-K) and Visa Form 10-K; coverage by James Sharp and GuruFocus; Motley Fool, \"How Visa Inc. Makes Money\". Education, not financial advice.",
+ "tags": [
+  "visa",
+  "how visa makes money",
+  "credit cards",
+  "business model",
+  "payment network",
+  "money facts",
+  "personal finance",
+  "finance explained"
+ ],
+ "music": "suspense.mp3",
+ "script": [
+  "Visa has never lent you a single cent. Yet it keeps about half of every dollar it makes.",
+  "Here's how.",
+  "When you pay with a Visa credit card, the money you borrow comes from your bank. Not from Visa.",
+  "Visa doesn't issue your card, and it doesn't set your interest rate.",
+  "It just runs the road your payment travels on, and charges a tiny toll every single time.",
+  "In its latest year, those tiny tolls added up to forty-five point nine billion dollars.",
+  "And twenty-three point five billion of that was profit.",
+  "No loans. No bad debts. The richest businesses don't carry the risk. They own the road."
+ ],
+ "captions": {
+  "green": [
+   "profit",
+   "road",
+   "own",
+   "half"
+  ],
+  "gold": [
+   "visa",
+   "bank",
+   "$45.9",
+   "$23.5",
+   "billion",
+   "toll",
+   "tolls",
+   "card"
+  ],
+  "red": [
+   "never",
+   "not",
+   "loans",
+   "debts",
+   "risk"
+  ]
+ },
+ "shots": [
+  {
+   "type": "card",
+   "cue": "Visa",
+   "img": "terminal",
+   "alt": "A contactless card payment terminal",
+   "kicker": "Visa never lent you",
+   "headline": "a single [r]cent.[/r]",
+   "stamp": {
+    "text": "Keeps ~50%",
+    "color": "g",
+    "cue": "half"
+   }
+  },
+  {
+   "type": "title",
+   "cue": "Here's",
+   "img": "skyline-night",
+   "alt": "Office towers at night",
+   "word": "HOW?",
+   "color": "y",
+   "size": 340
+  },
+  {
+   "type": "card",
+   "cue": "When",
+   "img": "credit-cards",
+   "alt": "A stack of credit cards",
+   "kicker": "The money you borrow comes from",
+   "headline": "your [y]bank.[/y]",
+   "stamp": {
+    "text": "Not Visa",
+    "color": "r",
+    "cue": "not"
+   }
+  },
+  {
+   "type": "paper",
+   "cue": "doesn't",
+   "fill": "vault",
+   "title": "WHAT VISA DOESN'T DO",
+   "rows": [
+    [
+     "Issue your card",
+     "NO"
+    ],
+    [
+     "Lend you money",
+     "NO"
+    ],
+    [
+     "Set your interest",
+     "NO"
+    ]
+   ],
+   "minus": [
+    0,
+    1,
+    2
+   ]
+  },
+  {
+   "type": "photo",
+   "cue": "just",
+   "img": "toll-plaza",
+   "alt": "A highway toll plaza",
+   "kicker": "Visa runs the road",
+   "headline": "+ a tiny [y]toll[/y]\non every payment",
+   "stamp": {
+    "text": "Every time",
+    "color": "g",
+    "cue": "every"
+   },
+   "dark": true
+  },
+  {
+   "type": "bignum",
+   "cue": "In",
+   "fill": "gold-bars",
+   "kicker": "Visa's tolls in fiscal 2026",
+   "from": 0,
+   "to": 45.9,
+   "decimals": 1,
+   "prefix": "$",
+   "suffix": "B",
+   "land": "billion",
+   "label": "in [g]revenue[/g]",
+   "source": "Source: Visa FY2026 earnings release (8-K)"
+  },
+  {
+   "type": "photo",
+   "cue": "and",
+   "img": "cash-stacks",
+   "alt": "Stacks of dollar bills",
+   "kicker": "Of that, profit",
+   "counter": {
+    "from": 0,
+    "to": 23.5,
+    "decimals": 1,
+    "prefix": "$",
+    "suffix": "B",
+    "cue": "profit",
+    "color": "g"
+   },
+   "dark": true
+  },
+  {
+   "type": "paper",
+   "cue": "No",
+   "fill": "screens",
+   "title": "VISA'S LENDING RISK",
+   "rows": [
+    [
+     "Loans to you",
+     "none"
+    ],
+    [
+     "Bad debts",
+     "none"
+    ]
+   ],
+   "minus": [
+    0,
+    1
+   ],
+   "stamp": {
+    "text": "Zero lending",
+    "color": "y",
+    "cue": "debts"
+   }
+  },
+  {
+   "type": "photo",
+   "cue": "The",
+   "img": "sunrise",
+   "alt": "The sun rising over the sea",
+   "kicker": "Don't carry the risk",
+   "headline": "[g]Own the road.[/g]",
+   "dark": true
+  }
+ ]
+}
