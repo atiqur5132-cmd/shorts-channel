@@ -15,13 +15,13 @@
 - 08 | 2026-11-14 | How Costco makes money: membership fees | shorts/08-costco-membership (waiting for owner OK)
 - 09 | 2026-11-17 | The 4% rule for retirement | shorts/09-four-percent-rule (waiting for owner OK)
 - 10 | 2026-11-18 | How Visa makes money without lending a cent | shorts/10-visa-toll (waiting for owner OK)
+- 11 | 2026-11-20 | The S&P 500 lost decade (2000-2009) and what came next | shorts/11-lost-decade (waiting for owner OK)
 
 ## Backlog (verify every number before use)
 - Why lottery winners go broke (studies vs myths; check the sources carefully)
 - How credit cards make money from people who "never pay interest" (interchange fees)
 - The latte factor: what $5 a day really becomes over 30 years
 - Why banks pay you 0.5% and lend at 20%
-- The S&P 500's worst decade, and what happened next
 - Why billionaires pay themselves $1 salaries
 - How Apple's cash pile compares to countries' GDP
 - The real cost of minimum payments on a credit card
