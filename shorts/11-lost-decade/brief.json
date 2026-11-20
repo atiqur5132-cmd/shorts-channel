@@ -1,0 +1,184 @@
+{
+ "slug": "11-lost-decade",
+ "title": "The Stock Market's Lost Decade (and What Came Next) 📉 #shorts",
+ "description": "From 2000 to 2009 the S&P 500 had its first losing decade: $1 invested became about 90 cents, even with dividends. From 2010 to 2019 it returned about 13.5% a year (around 256% in total).\nSource: S&P Dow Jones Indices (Sam Stovall via NBC, Jan 2010; Howard Silverblatt via AP, Dec 2019); Ben Carlson, \"A Wealth of Common Sense\"; Lipper/Refinitiv decade data (Dec 2019). Past returns don't guarantee future returns. Education, not financial advice.",
+ "tags": [
+  "lost decade",
+  "s&p 500",
+  "stock market history",
+  "stock market crash",
+  "investing",
+  "long term investing",
+  "money facts",
+  "finance explained"
+ ],
+ "music": "suspense.mp3",
+ "script": [
+  "Imagine investing for ten whole years, and ending up with less money.",
+  "That really happened. From two thousand to two thousand nine, the S and P five hundred had its first losing decade.",
+  "Two crashes. The dot-com bust, then the financial crisis.",
+  "One dollar invested at the start was worth about ninety cents at the end. Even with dividends.",
+  "People called it the lost decade. Many gave up on stocks.",
+  "But here's what happened next.",
+  "From twenty ten to twenty nineteen, the same index returned about thirteen and a half percent a year.",
+  "That ninety cents more than tripled.",
+  "The people who quit missed all of it. The market rewards patience, not panic."
+ ],
+ "captions": {
+  "green": [
+   "patience",
+   "tripled",
+   "rewards"
+  ],
+  "gold": [
+   "decade",
+   "dollar",
+   "dividends",
+   "index"
+  ],
+  "red": [
+   "less",
+   "losing",
+   "crashes",
+   "crisis",
+   "panic",
+   "quit",
+   "lost"
+  ],
+  "fix": [
+   "two thousand nine=2009",
+   "two thousand=2000",
+   "S P five hundred=S&P 500",
+   "happen=happened",
+   "ninety=90"
+  ]
+ },
+ "shots": [
+  {
+   "type": "photo",
+   "cue": "Imagine",
+   "img": "nyse-flags",
+   "alt": "The New York Stock Exchange with flags",
+   "kicker": "Invest for 10 whole years...",
+   "headline": "...end up with\n[r]less money.[/r]",
+   "dark": true
+  },
+  {
+   "type": "card",
+   "cue": "That",
+   "img": "trading-laptop",
+   "alt": "A laptop showing stock charts",
+   "kicker": "S&P 500, 2000 to 2009",
+   "headline": "Its first\n[r]losing[/r] decade",
+   "stamp": {
+    "text": "It happened",
+    "color": "y",
+    "cue": "losing"
+   }
+  },
+  {
+   "type": "paper",
+   "cue": "crashes",
+   "fill": "vault",
+   "title": "TWO CRASHES",
+   "rows": [
+    [
+     "2000-2002",
+     "Dot-com bust"
+    ],
+    [
+     "2007-2009",
+     "Financial crisis"
+    ]
+   ],
+   "minus": [
+    0,
+    1
+   ]
+  },
+  {
+   "type": "bignum",
+   "cue": "One",
+   "fill": "gold-bars",
+   "kicker": "$1 invested in 2000",
+   "from": 1,
+   "to": 0.9,
+   "decimals": 2,
+   "prefix": "$",
+   "land": "end",
+   "label": "even [y]with dividends[/y]",
+   "source": "Source: S&P Dow Jones Indices"
+  },
+  {
+   "type": "photo",
+   "cue": "People",
+   "img": "graveyard",
+   "alt": "Old gravestones",
+   "kicker": "They called it",
+   "headline": "The [r]lost[/r]\ndecade",
+   "stamp": {
+    "text": "Many gave up",
+    "color": "r",
+    "cue": "gave"
+   },
+   "dark": true
+  },
+  {
+   "type": "title",
+   "cue": "but",
+   "img": "skyline-night",
+   "alt": "Office towers at night",
+   "word": "Then...",
+   "color": "g",
+   "size": 360
+  },
+  {
+   "type": "chart",
+   "cue": "From",
+   "fill": "screens",
+   "kicker": "2010-2019: [g]~13.5%[/g] a year",
+   "up": "STAYED IN",
+   "flat": "QUIT"
+  },
+  {
+   "type": "photo",
+   "cue": "That",
+   "img": "cash-stacks",
+   "alt": "Stacks of dollar bills",
+   "kicker": "That 90 cents became about",
+   "counter": {
+    "from": 0.9,
+    "to": 3.2,
+    "decimals": 2,
+    "prefix": "$",
+    "cue": "tripled",
+    "color": "g"
+   },
+   "dark": true
+  },
+  {
+   "type": "paper",
+   "cue": "people",
+   "fill": "office-worker",
+   "title": "2000-2019: WHO WON?",
+   "rows": [
+    [
+     "Sold in panic",
+     "missed it"
+    ],
+    [
+     "Stayed patient",
+     "3x+ in the 2010s"
+    ]
+   ],
+   "minus": [
+    0
+   ],
+   "stamp": {
+    "text": "Patience pays",
+    "color": "g",
+    "cue": "patience"
+   }
+  }
+ ]
+}
