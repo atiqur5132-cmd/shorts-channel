@@ -16,6 +16,7 @@
 - 09 | 2026-11-17 | The 4% rule for retirement | shorts/09-four-percent-rule (waiting for owner OK)
 - 10 | 2026-11-18 | How Visa makes money without lending a cent | shorts/10-visa-toll (waiting for owner OK)
 - 11 | 2026-11-20 | The S&P 500 lost decade (2000-2009) and what came next | shorts/11-lost-decade (waiting for owner OK)
+- 12 | 2026-11-21 | Amex paid Delta more than Delta's whole profit (airlines sell miles) | shorts/12-delta-amex (waiting for owner OK)
 
 ## Backlog (verify every number before use)
 - Why lottery winners go broke (studies vs myths; check the sources carefully)
@@ -37,5 +38,4 @@
 - Why gold has beaten cash, but not stocks, over 50 years
 - The "Cantillon effect": who gets new money first
 - What happens to your money when a bank fails (deposit insurance)
-- Why airlines make more from credit cards than from flights
 - Lifestyle creep: why raises don't make people rich
