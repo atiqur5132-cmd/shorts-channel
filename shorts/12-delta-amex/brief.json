@@ -1,0 +1,154 @@
+{
+ "slug": "12-delta-amex",
+ "title": "A Credit Card Paid Delta More Than Its Profit ✈️ #shorts",
+ "description": "In 2025, American Express paid Delta Air Lines $8.2 billion for SkyMiles, while Delta's adjusted pre-tax profit for the whole year was about $5 billion. Airlines don't just sell seats, they sell points.\nSource: Delta Air Lines December quarter & full year 2025 results (Jan 13, 2026); Fortune, \"Delta sees wealthy high fliers...\" (Jan 13, 2026). Education, not financial advice.",
+ "tags": [
+  "delta air lines",
+  "american express",
+  "credit cards",
+  "airline miles",
+  "skymiles",
+  "business model",
+  "money facts",
+  "finance explained"
+ ],
+ "music": "suspense.mp3",
+ "script": [
+  "A credit card paid Delta Air Lines more money last year than the airline made in profit.",
+  "In twenty twenty-five, American Express paid Delta eight point two billion dollars.",
+  "Delta's entire pre-tax profit that year? About five billion.",
+  "So why would a card company pay an airline?",
+  "Because Delta sells its SkyMiles to American Express.",
+  "Amex hands those miles to you every time you swipe, and the store pays a small fee on every purchase.",
+  "Miles are cheap for Delta to create. Flying planes is not.",
+  "The airline isn't just selling seats. It's selling points."
+ ],
+ "captions": {
+  "green": [
+   "profit",
+   "points",
+   "cheap"
+  ],
+  "gold": [
+   "delta",
+   "american",
+   "express",
+   "amex",
+   "$8.2",
+   "billion",
+   "skymiles",
+   "miles",
+   "card",
+   "fee"
+  ],
+  "red": [
+   "entire",
+   "not",
+   "why"
+  ]
+ },
+ "shots": [
+  {
+   "type": "card",
+   "cue": "A",
+   "img": "delta-jet",
+   "alt": "A regional jet in Delta colours",
+   "kicker": "A credit card paid Delta",
+   "headline": "more than its\n[g]profit[/g]"
+  },
+  {
+   "type": "bignum",
+   "cue": "2025",
+   "fill": "gold-bars",
+   "kicker": "American Express paid Delta in [y]2025[/y]",
+   "from": 0,
+   "to": 8.2,
+   "decimals": 1,
+   "prefix": "$",
+   "suffix": "B",
+   "land": "billion",
+   "label": "for [y]SkyMiles[/y]",
+   "source": "Source: Delta FY2025 results, Jan 13 2026"
+  },
+  {
+   "type": "paper",
+   "cue": "Delta's",
+   "fill": "screens",
+   "title": "DELTA, 2025",
+   "rows": [
+    [
+     "Paid by Amex",
+     "$8.2B"
+    ],
+    [
+     "Pre-tax profit",
+     "~$5B"
+    ]
+   ],
+   "stamp": {
+    "text": "Card > profit",
+    "color": "r",
+    "cue": "about"
+   }
+  },
+  {
+   "type": "title",
+   "cue": "So",
+   "img": "skyline-night",
+   "alt": "Office towers at night",
+   "word": "WHY?",
+   "color": "y",
+   "size": 340
+  },
+  {
+   "type": "card",
+   "cue": "Because",
+   "img": "credit-cards",
+   "alt": "A stack of credit cards",
+   "kicker": "Delta sells its",
+   "headline": "[y]SkyMiles[/y]\nto Amex"
+  },
+  {
+   "type": "photo",
+   "cue": "Amex",
+   "img": "cash-stacks",
+   "alt": "Stacks of dollar bills",
+   "kicker": "You swipe, you get miles",
+   "headline": "Store pays\na small [y]fee[/y]",
+   "stamp": {
+    "text": "Every purchase",
+    "color": "g",
+    "cue": "purchase"
+   },
+   "dark": true
+  },
+  {
+   "type": "paper",
+   "cue": "are",
+   "fill": "screens",
+   "title": "WHAT IT COSTS DELTA",
+   "rows": [
+    [
+     "Create a mile",
+     "cheap"
+    ],
+    [
+     "Fly a plane",
+     "fuel, crew, jets"
+    ]
+   ],
+   "minus": [
+    1
+   ]
+  },
+  {
+   "type": "photo",
+   "cue": "The",
+   "img": "sunrise",
+   "alt": "The sun rising over the sea",
+   "kicker": "Not just selling seats",
+   "headline": "Selling\n[g]points.[/g]",
+   "dark": true
+  }
+ ]
+}
