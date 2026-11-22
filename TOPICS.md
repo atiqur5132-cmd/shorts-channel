@@ -17,13 +17,13 @@
 - 10 | 2026-11-18 | How Visa makes money without lending a cent | shorts/10-visa-toll (waiting for owner OK)
 - 11 | 2026-11-20 | The S&P 500 lost decade (2000-2009) and what came next | shorts/11-lost-decade (waiting for owner OK)
 - 12 | 2026-11-21 | Amex paid Delta more than Delta's whole profit (airlines sell miles) | shorts/12-delta-amex (waiting for owner OK)
+- 13 | 2026-11-22 | Why billionaires take a $1 salary | shorts/13-one-dollar-salary (waiting for owner OK)
 
 ## Backlog (verify every number before use)
 - Why lottery winners go broke (studies vs myths; check the sources carefully)
 - How credit cards make money from people who "never pay interest" (interchange fees)
 - The latte factor: what $5 a day really becomes over 30 years
 - Why banks pay you 0.5% and lend at 20%
-- Why billionaires pay themselves $1 salaries
 - How Apple's cash pile compares to countries' GDP
 - The real cost of minimum payments on a credit card
 - Stock buybacks explained in 40 seconds
