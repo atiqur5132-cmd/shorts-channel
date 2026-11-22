@@ -1,0 +1,34 @@
+{
+ "slug": "13-one-dollar-salary",
+ "title": "Why Billionaires Take a $1 Salary 💵 #shorts",
+ "description": "Mark Zuckerberg has taken a $1 salary since 2013, and Steve Jobs took $1 a year at Apple. Their wealth sits in shares: US salary is taxed up to 37% every year, while share gains aren't taxed until they're sold.\nSource: Meta 2026 proxy statement (SEC Form DEF 14A); Quartz & NBC News (2013); NBC News & CNN Money on Steve Jobs; Tax Foundation & NerdWallet 2026 tax brackets. Education, not financial advice.",
+ "tags": ["mark zuckerberg", "steve jobs", "billionaires", "1 dollar salary", "taxes", "stock wealth", "money facts", "finance explained"],
+ "music": "suspense.mp3",
+ "script": [
+  "Mark Zuckerberg's salary is one dollar a year, and it has been since twenty thirteen.",
+  "Steve Jobs took one dollar a year at Apple too.",
+  "So are billionaires just being generous?",
+  "Not really. Their real money sits in their company's shares.",
+  "A salary gets taxed every year, at up to thirty-seven percent federal tax in America.",
+  "But shares that grow aren't taxed until you sell them.",
+  "And a one dollar salary tells investors: I only get rich if you get rich.",
+  "Your salary pays the bills. What you own builds the wealth."
+ ],
+ "captions": {
+  "green": ["shares", "own", "wealth", "rich", "grow"],
+  "gold": ["zuckerberg", "mark", "steve", "jobs", "apple", "dollar", "$1", "salary", "investors"],
+  "red": ["taxed", "tax", "37%", "generous"]
+ },
+ "shots": [
+  {"type": "photo", "cue": "Mark", "img": "nyc-night", "alt": "New York towers at night", "kicker": "Mark Zuckerberg's salary", "headline": "[g]$1[/g] a year", "hsize": 260, "dark": true,
+   "stamp": {"text": "Since 2013", "color": "y", "cue": "since"}},
+  {"type": "card", "cue": "Steve", "img": "vault", "alt": "A bank vault door", "kicker": "Steve Jobs at Apple", "headline": "also [y]$1[/y]\na year"},
+  {"type": "title", "cue": "So", "img": "skyline-night", "alt": "Office towers at night", "word": "Generous?", "color": "y", "size": 230},
+  {"type": "chart", "cue": "Not", "fill": "screens", "kicker": "Where their money really is", "up": "SHARES", "flat": "SALARY"},
+  {"type": "paper", "cue": "A", "fill": "office-worker", "title": "A SALARY IN THE US", "rows": [["Taxed", "every year"], ["Top federal rate", "37%"]], "minus": [1],
+   "stamp": {"text": "Up to 37%", "color": "r", "cue": "federal"}},
+  {"type": "photo", "cue": "But", "img": "cash-stacks", "alt": "Stacks of dollar bills", "kicker": "Shares that grow", "headline": "No tax until\nyou [g]sell[/g]", "dark": true},
+  {"type": "card", "cue": "And", "img": "trading-laptop", "alt": "A laptop showing stock charts", "kicker": "A $1 salary tells investors", "headline": "I win only\nif [g]you[/g] win"},
+  {"type": "photo", "cue": "Your", "img": "sunrise", "alt": "The sun rising over the sea", "kicker": "Salary pays the bills", "headline": "Owning builds\n[g]wealth.[/g]", "dark": true}
+ ]
+}
