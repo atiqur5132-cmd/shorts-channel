@@ -18,6 +18,7 @@
 - 11 | 2026-11-20 | The S&P 500 lost decade (2000-2009) and what came next | shorts/11-lost-decade (waiting for owner OK)
 - 12 | 2026-11-21 | Amex paid Delta more than Delta's whole profit (airlines sell miles) | shorts/12-delta-amex (waiting for owner OK)
 - 13 | 2026-11-22 | Why billionaires take a $1 salary | shorts/13-one-dollar-salary (waiting for owner OK)
+- 14 | 2026-11-23 | What happens to your money when a bank fails (FDIC, SVB) | shorts/14-bank-fails (waiting for owner OK)
 
 ## Backlog (verify every number before use)
 - Why lottery winners go broke (studies vs myths; check the sources carefully)
@@ -37,5 +38,4 @@
 - Swiss watch, not a Rolex: luxury brand markups
 - Why gold has beaten cash, but not stocks, over 50 years
 - The "Cantillon effect": who gets new money first
-- What happens to your money when a bank fails (deposit insurance)
 - Lifestyle creep: why raises don't make people rich
