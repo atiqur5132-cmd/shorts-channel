@@ -1,0 +1,160 @@
+{
+ "slug": "14-bank-fails",
+ "title": "What Happens to Your Money When a Bank Fails? 🏦 #shorts",
+ "description": "In March 2023, customers tried to pull $42 billion out of Silicon Valley Bank in one day, and it was shut down the next. In the US, the F-D-I-C insures deposits up to $250,000 per depositor, per bank, and no one has lost a cent of insured money since it began in 1934.\nSource: FDIC.gov (deposit insurance & \"When a Bank Fails\"); U.S. Bank Financial IQ; Fortune & Bloomberg (Mar 11, 2023); CNBC (Mar 28, 2023). Education, not financial advice.",
+ "tags": [
+  "bank failure",
+  "fdic",
+  "deposit insurance",
+  "silicon valley bank",
+  "svb collapse",
+  "bank run",
+  "money facts",
+  "finance explained",
+  "personal finance"
+ ],
+ "music": "suspense.mp3",
+ "script": [
+  "In March twenty twenty-three, people tried to pull forty-two billion dollars out of one bank in a single day.",
+  "The next day, Silicon Valley Bank was shut down.",
+  "So what happens to your money when a bank fails?",
+  "In America, the F-D-I-C insures your deposits up to two hundred fifty thousand dollars, per person, per bank.",
+  "Since that insurance began in nineteen thirty-four, no one has lost a single cent of insured money.",
+  "But most of the money at Silicon Valley Bank sat above that limit, in big company accounts.",
+  "That's what made people panic.",
+  "So know the limit before you ever need it."
+ ],
+ "captions": {
+  "green": [
+   "insures",
+   "insured",
+   "insurance",
+   "know",
+   "limit"
+  ],
+  "gold": [
+   "fdic",
+   "silicon",
+   "valley",
+   "bank",
+   "deposits",
+   "dollars",
+   "billion",
+   "thousand",
+   "fdic"
+  ],
+  "red": [
+   "shut",
+   "fails",
+   "panic",
+   "lost",
+   "cent"
+  ]
+ },
+ "shots": [
+  {
+   "type": "photo",
+   "cue": "In",
+   "img": "bank-run",
+   "alt": "A crowd outside a bank during a bank run",
+   "kicker": "ONE bank, ONE day",
+   "dark": true,
+   "counter": {
+    "from": 0,
+    "to": 42,
+    "prefix": "$",
+    "suffix": "B",
+    "cue": "billion",
+    "color": "r"
+   }
+  },
+  {
+   "type": "card",
+   "cue": "next",
+   "img": "vault",
+   "alt": "A bank vault door",
+   "kicker": "The next day",
+   "headline": "Silicon Valley\nBank [r]shut[/r]",
+   "stamp": {
+    "text": "Closed",
+    "color": "r",
+    "cue": "shut"
+   }
+  },
+  {
+   "type": "title",
+   "cue": "So",
+   "img": "skyline-night",
+   "alt": "Office towers at night",
+   "word": "Your money?",
+   "color": "y",
+   "size": 220
+  },
+  {
+   "type": "bignum",
+   "cue": "America",
+   "fill": "gold-bars",
+   "kicker": "FDIC insures up to",
+   "from": 0,
+   "to": 250,
+   "decimals": 0,
+   "prefix": "$",
+   "suffix": "K",
+   "land": "person",
+   "label": "per person, per bank",
+   "source": "Source: FDIC.gov"
+  },
+  {
+   "type": "paper",
+   "cue": "Since",
+   "fill": "office-worker",
+   "title": "FDIC INSURANCE",
+   "rows": [
+    [
+     "Started",
+     "1934"
+    ],
+    [
+     "Insured money lost",
+     "$0"
+    ],
+    [
+     "Limit today",
+     "$250,000"
+    ]
+   ],
+   "stamp": {
+    "text": "Not one cent",
+    "color": "g",
+    "cue": "single"
+   }
+  },
+  {
+   "type": "photo",
+   "cue": "but",
+   "img": "bank-columns",
+   "alt": "A bank building with stone columns",
+   "kicker": "At Silicon Valley Bank",
+   "headline": "Most money sat\n[r]above the limit[/r]",
+   "dark": true
+  },
+  {
+   "type": "card",
+   "cue": "That's",
+   "img": "trading-laptop",
+   "alt": "A laptop showing stock charts",
+   "kicker": "Uninsured money ran",
+   "headline": "[r]Panic.[/r]",
+   "hsize": 260
+  },
+  {
+   "type": "photo",
+   "cue": "know",
+   "img": "sunrise",
+   "alt": "The sun rising over the sea",
+   "kicker": "Before you ever need it",
+   "headline": "Know the\n[g]limit.[/g]",
+   "dark": true
+  }
+ ]
+}
