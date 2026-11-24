@@ -19,6 +19,7 @@
 - 12 | 2026-11-21 | Amex paid Delta more than Delta's whole profit (airlines sell miles) | shorts/12-delta-amex (waiting for owner OK)
 - 13 | 2026-11-22 | Why billionaires take a $1 salary | shorts/13-one-dollar-salary (waiting for owner OK)
 - 14 | 2026-11-23 | What happens to your money when a bank fails (FDIC, SVB) | shorts/14-bank-fails (waiting for owner OK)
+- 15 | 2026-11-24 | How much interest a 30-year mortgage really costs | shorts/15-mortgage-interest (waiting for owner OK)
 
 ## Backlog (verify every number before use)
 - Why lottery winners go broke (studies vs myths; check the sources carefully)
@@ -30,7 +31,6 @@
 - Stock buybacks explained in 40 seconds
 - What a "basis point" costs you on a mortgage
 - Why your paycheck feels smaller every year (bracket creep vs inflation)
-- How much interest a 30-year mortgage really costs
 - Why "rich dad" buys assets and "poor dad" buys liabilities (assets vs liabilities)
 - Dollar-cost averaging vs timing the market
 - The richest family in history: Rothschild myths vs facts
