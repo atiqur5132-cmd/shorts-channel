@@ -1,0 +1,177 @@
+{
+ "slug": "15-mortgage-interest",
+ "title": "Borrow $400K for a House, Pay Back Almost $1M 🏠 #shorts",
+ "description": "At this week's average 30-year mortgage rate of 7.28%, a $400,000 loan costs about $2,737 a month, and about $585,000 in interest over 30 years (loan payment only, not taxes or insurance). A 15-year loan at the same rate: about $258,000 in interest.\nSource: Freddie Mac Primary Mortgage Market Survey (Nov 19, 2026); The Mortgage Reports (Nov 2026); payments calculated with the standard amortization formula. Education, not financial advice.",
+ "tags": [
+  "mortgage",
+  "mortgage interest",
+  "30 year mortgage",
+  "mortgage rates",
+  "home loan",
+  "compound interest",
+  "money facts",
+  "personal finance",
+  "finance explained"
+ ],
+ "music": "suspense.mp3",
+ "script": [
+  "Borrow four hundred thousand dollars for a house, and you'll pay back almost a million.",
+  "Here's how.",
+  "This week, Freddie Mac says the average thirty-year mortgage rate is seven point two eight percent.",
+  "That's a payment of about two thousand seven hundred dollars, every month, for thirty years.",
+  "The interest alone adds up to about five hundred eighty-five thousand dollars. More than the house.",
+  "And in year one, under four thousand dollars of your payments actually pays down the loan.",
+  "Same loan over fifteen years? The interest drops to about two hundred fifty-eight thousand.",
+  "So before you sign, don't just ask about the monthly payment. Ask about the total."
+ ],
+ "captions": {
+  "fix": [
+   "$40,000=$400,000",
+   "Freddy=Freddie"
+  ],
+  "green": [
+   "total",
+   "drops",
+   "sign"
+  ],
+  "gold": [
+   "house",
+   "mortgage",
+   "rate",
+   "payment",
+   "month",
+   "freddie",
+   "mac",
+   "million"
+  ],
+  "red": [
+   "interest",
+   "alone",
+   "more",
+   "under",
+   "loan"
+  ]
+ },
+ "shots": [
+  {
+   "type": "photo",
+   "cue": "Borrow",
+   "img": "red-house",
+   "alt": "A red family house with a porch",
+   "kicker": "Borrow [y]$400K[/y], pay back",
+   "dark": true,
+   "counter": {
+    "from": 0,
+    "to": 985,
+    "prefix": "$",
+    "suffix": "K",
+    "cue": "million",
+    "color": "r"
+   }
+  },
+  {
+   "type": "title",
+   "cue": "Here's",
+   "img": "skyline-night",
+   "alt": "Office towers at night",
+   "word": "How?",
+   "color": "y",
+   "size": 340
+  },
+  {
+   "type": "bignum",
+   "cue": "This",
+   "fill": "gold-bars",
+   "kicker": "30-year mortgage rate",
+   "from": 0,
+   "to": 7.28,
+   "decimals": 2,
+   "suffix": "%",
+   "land": "is",
+   "label": "US average this week",
+   "source": "Source: Freddie Mac, Nov 19 2026"
+  },
+  {
+   "type": "card",
+   "cue": "That's",
+   "img": "calculator",
+   "alt": "A calculator",
+   "kicker": "Monthly, for 30 years",
+   "counter": {
+    "from": 0,
+    "to": 2.7,
+    "decimals": 1,
+    "prefix": "$",
+    "suffix": "K",
+    "cue": "payment",
+    "color": "y"
+   }
+  },
+  {
+   "type": "paper",
+   "cue": "interest",
+   "fill": "office-worker",
+   "title": "$400,000 LOAN, 30 YEARS",
+   "rows": [
+    [
+     "Borrowed",
+     "$400,000"
+    ],
+    [
+     "Interest",
+     "~$585,000"
+    ],
+    [
+     "Total paid",
+     "~$985,000"
+    ]
+   ],
+   "minus": [
+    1
+   ],
+   "stamp": {
+    "text": "More than the house",
+    "color": "r",
+    "cue": "more"
+   }
+  },
+  {
+   "type": "photo",
+   "cue": "And",
+   "img": "porch-house",
+   "alt": "A white house with wraparound porches",
+   "kicker": "Year one",
+   "headline": "Under [r]$4K[/r] pays\ndown the loan",
+   "dark": true
+  },
+  {
+   "type": "card",
+   "cue": "same",
+   "img": "keys",
+   "alt": "Three old iron keys",
+   "kicker": "Same loan, 15 years",
+   "counter": {
+    "from": 0,
+    "to": 258,
+    "prefix": "$",
+    "suffix": "K",
+    "cue": "drops",
+    "color": "g"
+   },
+   "stamp": {
+    "text": "Less than half",
+    "color": "g",
+    "cue": "interest"
+   }
+  },
+  {
+   "type": "photo",
+   "cue": "So",
+   "img": "blue-house",
+   "alt": "A blue house with a chimney",
+   "kicker": "Before you sign",
+   "headline": "Ask about\nthe [g]total.[/g]",
+   "dark": true
+  }
+ ]
+}
