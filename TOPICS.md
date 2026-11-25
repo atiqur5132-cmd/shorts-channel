@@ -20,6 +20,7 @@
 - 13 | 2026-11-22 | Why billionaires take a $1 salary | shorts/13-one-dollar-salary (waiting for owner OK)
 - 14 | 2026-11-23 | What happens to your money when a bank fails (FDIC, SVB) | shorts/14-bank-fails (waiting for owner OK)
 - 15 | 2026-11-24 | How much interest a 30-year mortgage really costs | shorts/15-mortgage-interest (waiting for owner OK)
+- 16 | 2026-11-25 | The credit card minimum payment trap | shorts/16-minimum-payment (built and checked; cloud render failed twice with GitHub HTTP 500, re-run tools/render_cloud.sh)
 
 ## Backlog (verify every number before use)
 - Why lottery winners go broke (studies vs myths; check the sources carefully)
