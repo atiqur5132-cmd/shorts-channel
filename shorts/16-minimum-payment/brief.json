@@ -1,0 +1,165 @@
+{
+ "slug": "16-minimum-payment",
+ "title": "The Minimum Payment Trap: $5K Takes 16 Years 💳 #shorts",
+ "description": "Owe $5,000 on a card at 22% and pay only the minimum (1% of the balance plus interest, $35 floor): it takes over 16 years and about $7,700 in interest. Pay $250 a month instead: about 2 years and under $1,300 in interest.\nSource: Federal Reserve G.19 Consumer Credit (Nov 6, 2026: 22.36% average APR on accounts assessed interest) and FRED series TERMCBCCINTNS; CFPB on minimum payment formulas and the CARD Act minimum payment warning. Payoff figures calculated month by month. Education, not financial advice.",
+ "tags": [
+  "credit card",
+  "minimum payment",
+  "credit card debt",
+  "credit card interest",
+  "debt payoff",
+  "APR",
+  "money facts",
+  "personal finance",
+  "finance explained"
+ ],
+ "music": "suspense.mp3",
+ "script": [
+  "Your credit card's minimum payment is built to keep you paying for years.",
+  "Say you owe five thousand dollars at twenty-two percent, the Fed's average for cards that charge interest.",
+  "The minimum is often one percent of the balance, plus interest. About one hundred forty dollars.",
+  "But over ninety of that is just interest.",
+  "Pay only the minimum, and it takes over sixteen years. Interest: about seven thousand seven hundred dollars.",
+  "Pay two hundred fifty a month instead? Done in about two years, under thirteen hundred in interest.",
+  "So check the minimum payment box on your statement. It shows the real cost."
+ ],
+ "captions": {
+  "fix": [
+   "Feds=Fed's"
+  ],
+  "green": [
+   "instead",
+   "done",
+   "check",
+   "real",
+   "box"
+  ],
+  "gold": [
+   "credit",
+   "card's",
+   "fed's",
+   "average",
+   "balance",
+   "statement",
+   "minimum",
+   "month"
+  ],
+  "red": [
+   "interest",
+   "years",
+   "paying",
+   "just",
+   "only"
+  ]
+ },
+ "shots": [
+  {
+   "type": "card",
+   "cue": "Your",
+   "img": "credit-cards",
+   "alt": "Credit cards in a jeans pocket",
+   "kicker": "Your minimum payment",
+   "headline": "Built to keep\nyou [r]paying.[/r]",
+   "stamp": {
+    "text": "For years",
+    "color": "r",
+    "cue": "years"
+   }
+  },
+  {
+   "type": "bignum",
+   "cue": "Say",
+   "fill": "vault",
+   "kicker": "Owe [y]$5,000[/y] at",
+   "from": 0,
+   "to": 22,
+   "decimals": 0,
+   "suffix": "%",
+   "land": "average",
+   "label": "Fed average, cards that charge interest",
+   "source": "Source: Federal Reserve G.19, Nov 2026"
+  },
+  {
+   "type": "card",
+   "cue": "minimum",
+   "img": "calculator",
+   "alt": "A financial calculator",
+   "kicker": "1% of balance + interest",
+   "counter": {
+    "from": 0,
+    "to": 140,
+    "prefix": "$",
+    "cue": "about",
+    "color": "y"
+   }
+  },
+  {
+   "type": "photo",
+   "cue": "But",
+   "img": "cash-stacks",
+   "alt": "Stacks of dollar bills",
+   "kicker": "Of that first payment",
+   "headline": "[r]$92[/r] is just\ninterest",
+   "dark": true
+  },
+  {
+   "type": "paper",
+   "cue": "Pay",
+   "fill": "office-worker",
+   "title": "$5,000 AT 22%, MINIMUM ONLY",
+   "rows": [
+    [
+     "Time to pay off",
+     "16+ years"
+    ],
+    [
+     "Interest paid",
+     "~$7,700"
+    ],
+    [
+     "Total paid",
+     "~$12,700"
+    ]
+   ],
+   "minus": [
+    1
+   ],
+   "stamp": {
+    "text": "More than the debt",
+    "color": "r",
+    "cue": "interest"
+   }
+  },
+  {
+   "type": "photo",
+   "cue": "Pay",
+   "img": "hourglass",
+   "alt": "An hourglass on a wooden table",
+   "kicker": "Pay [g]$250[/g] a month instead",
+   "headline": "Done in\n[g]2 years.[/g]",
+   "dark": true
+  },
+  {
+   "type": "card",
+   "cue": "So",
+   "img": "terminal",
+   "alt": "A card payment terminal",
+   "kicker": "On your statement",
+   "headline": "Find the\n[y]minimum box[/y]",
+   "stamp": {
+    "text": "Read it",
+    "color": "y",
+    "cue": "statement"
+   }
+  },
+  {
+   "type": "photo",
+   "cue": "It",
+   "img": "sunrise",
+   "alt": "The sun rising over the sea",
+   "kicker": "It shows",
+   "headline": "The [g]real\ncost.[/g]",
+   "dark": true
+  }
+ ]
+}
