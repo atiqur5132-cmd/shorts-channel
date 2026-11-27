@@ -1,0 +1,150 @@
+{
+ "slug": "18-bank-spread",
+ "title": "Your Bank Pays You 0.38%... Then Charges 22% 🏦 #shorts",
+ "description": "The average US savings account pays about 0.38% a year, while the average credit card that charges interest is about 22% APR. That gap, the spread, is how banks make money. Education, not financial advice.\nSource: FDIC National Rates (savings, Aug 2026, via FRED series SNDR); Federal Reserve G.19 Consumer Credit release, Nov 6 2026 (credit card plans, accounts assessed interest, about 22.4%).",
+ "tags": [
+  "banks",
+  "savings account",
+  "credit card interest",
+  "interest rates",
+  "how banks make money",
+  "personal finance",
+  "money facts",
+  "apr",
+  "fdic"
+ ],
+ "music": "suspense.mp3",
+ "script": [
+  "Your bank pays you almost nothing. Then it charges you twenty-two percent to borrow money back.",
+  "The average savings account in America pays just zero point three eight percent a year, according to the FDIC.",
+  "But the average credit card that charges interest? About twenty-two percent, says the Federal Reserve.",
+  "Park one thousand dollars in savings, and you earn about four dollars in a year.",
+  "Borrow that same thousand on a card, and you pay around two hundred twenty.",
+  "That gap is called the spread. It's how banks get rich.",
+  "Your savings are their cheapest fuel.",
+  "So always ask what your money is earning. Because your bank already knows."
+ ],
+ "captions": {
+  "green": [
+   "savings",
+   "earn",
+   "earning"
+  ],
+  "gold": [
+   "bank",
+   "banks",
+   "fdic",
+   "federal",
+   "reserve",
+   "thousand",
+   "dollars",
+   "spread",
+   "fuel"
+  ],
+  "red": [
+   "nothing",
+   "charges",
+   "interest",
+   "borrow",
+   "pay",
+   "rich",
+   "cheapest"
+  ],
+  "fix": [
+   "F Dick=FDIC"
+  ]
+ },
+ "shots": [
+  {
+   "type": "photo",
+   "cue": "Your",
+   "img": "bank-columns",
+   "alt": "A bank building with stone columns",
+   "kicker": "Your bank pays you",
+   "headline": "Almost\n[r]nothing.[/r]",
+   "dark": true
+  },
+  {
+   "type": "bignum",
+   "cue": "The",
+   "fill": "vault",
+   "kicker": "Average US savings rate",
+   "from": 0,
+   "to": 0.38,
+   "decimals": 2,
+   "suffix": "%",
+   "land": "year",
+   "label": "per [y]year[/y]",
+   "source": "Source: FDIC national rate, Aug 2026"
+  },
+  {
+   "type": "card",
+   "cue": "But",
+   "img": "credit-cards",
+   "alt": "Credit cards in a jeans pocket",
+   "kicker": "Average card that charges interest",
+   "counter": {
+    "from": 0,
+    "to": 22,
+    "suffix": "%",
+    "cue": "About",
+    "color": "r"
+   },
+   "stamp": {
+    "text": "Federal Reserve",
+    "color": "y",
+    "cue": "Federal"
+   }
+  },
+  {
+   "type": "paper",
+   "cue": "Park",
+   "fill": "office-worker",
+   "title": "SAME $1,000, ONE YEAR",
+   "rows": [
+    [
+     "In savings (0.38%)",
+     "+$4"
+    ],
+    [
+     "On a card (22%)",
+     "-$220"
+    ]
+   ],
+   "minus": [
+    1
+   ]
+  },
+  {
+   "type": "chart",
+   "cue": "gap",
+   "fill": "screens",
+   "kicker": "The gap = [y]the spread[/y]",
+   "up": "CARD RATE",
+   "flat": "SAVINGS RATE"
+  },
+  {
+   "type": "title",
+   "cue": "Your",
+   "img": "skyline-night",
+   "alt": "Office towers at night",
+   "word": "Fuel.",
+   "color": "y",
+   "size": 360
+  },
+  {
+   "type": "photo",
+   "cue": "So",
+   "img": "cash-stacks",
+   "alt": "Stacks of dollar bills",
+   "kicker": "Ask what your money earns",
+   "headline": "Your bank\n[y]already knows.[/y]",
+   "dark": true,
+   "stamp": {
+    "text": "Know your rate",
+    "color": "g",
+    "cue": "knows"
+   }
+  }
+ ]
+}
