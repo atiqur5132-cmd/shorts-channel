@@ -22,11 +22,11 @@
 - 15 | 2026-11-24 | How much interest a 30-year mortgage really costs | shorts/15-mortgage-interest (waiting for owner OK)
 - 16 | 2026-11-25 | The credit card minimum payment trap | shorts/16-minimum-payment (rendered 2026-11-27, waiting for owner OK)
 - 17 | 2026-11-27 | The latte factor: $5 a day over 30 years | shorts/17-latte-factor (waiting for owner OK)
+- 18 | 2026-11-27 | Why banks pay 0.38% and charge 22% (the spread) | shorts/18-bank-spread (waiting for owner OK)
 
 ## Backlog (verify every number before use)
 - Why lottery winners go broke (studies vs myths; check the sources carefully)
 - How credit cards make money from people who "never pay interest" (interchange fees)
-- Why banks pay you 0.5% and lend at 20%
 - How Apple's cash pile compares to countries' GDP
 - The real cost of minimum payments on a credit card
 - Stock buybacks explained in 40 seconds
