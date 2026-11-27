@@ -1,0 +1,159 @@
+{
+ "slug": "17-latte-factor",
+ "title": "Your $5 Coffee Could Cost You $300,000 ☕ #shorts",
+ "description": "$5 a day is $1,825 a year, about $54,750 in cash over 30 years. Invested at the S&P 500's long-run average of about 10% a year, it could grow to around $300,000 (about $157K-$172K in today's money at 6.5-7% after inflation). Past returns are not guaranteed. Education, not financial advice.\nSource: David Bach, \"The Latte Factor\" / \"The Automatic Millionaire\"; S&P 500 average return: Fidelity Learning Center and NerdWallet (2026); future value calculated with the standard annuity formula.",
+ "tags": [
+  "latte factor",
+  "compound interest",
+  "saving money",
+  "investing",
+  "s&p 500",
+  "david bach",
+  "money habits",
+  "personal finance",
+  "money facts"
+ ],
+ "music": "suspense.mp3",
+ "script": [
+  "Your five dollar coffee could be costing you three hundred thousand dollars.",
+  "Author David Bach called it the latte factor.",
+  "Five dollars a day is about eighteen hundred dollars a year.",
+  "Over thirty years, that's almost fifty-five thousand dollars in plain cash.",
+  "But invest it instead, at the stock market's long-run average of about ten percent a year.",
+  "Compounding turns it into around three hundred thousand.",
+  "Even after inflation, that's still well over one hundred fifty thousand in today's money.",
+  "The coffee isn't the real problem. Small leaks, every single day, quietly cost you a fortune."
+ ],
+ "captions": {
+  "green": [
+   "invest",
+   "compounding",
+   "average"
+  ],
+  "gold": [
+   "coffee",
+   "latte",
+   "factor",
+   "david",
+   "bach",
+   "dollars",
+   "day",
+   "year",
+   "cash",
+   "thousand"
+  ],
+  "red": [
+   "costing",
+   "leaks",
+   "inflation",
+   "fortune",
+   "problem"
+  ]
+ },
+ "shots": [
+  {
+   "type": "photo",
+   "cue": "Your",
+   "img": "latte-top",
+   "alt": "A latte with leaf art on a wooden table",
+   "kicker": "[y]$5[/y] coffee could cost",
+   "dark": true,
+   "counter": {
+    "from": 0,
+    "to": 300,
+    "prefix": "$",
+    "suffix": "K",
+    "cue": "costing",
+    "color": "r"
+   }
+  },
+  {
+   "type": "card",
+   "cue": "Author",
+   "img": "latte-pour",
+   "alt": "Milk being poured into a latte",
+   "kicker": "David Bach calls it",
+   "headline": "The [y]latte\nfactor[/y]"
+  },
+  {
+   "type": "paper",
+   "cue": "day",
+   "fill": "office-worker",
+   "title": "$5 A DAY",
+   "rows": [
+    [
+     "Per year",
+     "$1,825"
+    ],
+    [
+     "After 30 years",
+     "$54,750"
+    ]
+   ],
+   "stamp": {
+    "text": "Just cash",
+    "color": "y",
+    "cue": "cash"
+   }
+  },
+  {
+   "type": "chart",
+   "cue": "invest",
+   "fill": "screens",
+   "kicker": "Invested at ~10% a year",
+   "up": "INVESTED",
+   "flat": "CASH"
+  },
+  {
+   "type": "bignum",
+   "cue": "Compounding",
+   "fill": "gold-bars",
+   "kicker": "After 30 years",
+   "from": 0,
+   "to": 300,
+   "prefix": "$",
+   "suffix": "K",
+   "land": "around",
+   "label": "from [y]$5[/y] a day",
+   "source": "S&P 500 avg ~10%/yr: Fidelity, NerdWallet"
+  },
+  {
+   "type": "photo",
+   "cue": "Even",
+   "img": "cash-stacks",
+   "alt": "Stacks of dollar bills",
+   "kicker": "Even after inflation",
+   "dark": true,
+   "counter": {
+    "from": 0,
+    "to": 150,
+    "prefix": "$",
+    "suffix": "K+",
+    "cue": "over",
+    "color": "g"
+   },
+   "stamp": {
+    "text": "Today's money",
+    "color": "y",
+    "cue": "money"
+   }
+  },
+  {
+   "type": "title",
+   "cue": "The",
+   "img": "skyline-night",
+   "alt": "Office towers at night",
+   "word": "Coffee?",
+   "color": "r",
+   "size": 320
+  },
+  {
+   "type": "card",
+   "cue": "Small",
+   "img": "tap",
+   "alt": "A dripping outdoor tap",
+   "kicker": "Small leaks, every day",
+   "headline": "Quietly cost\na [r]fortune.[/r]"
+  }
+ ]
+}
